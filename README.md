@@ -16,17 +16,6 @@ Connor helps complex technology companies choose markets, penetrate strategic ac
 - `experience.html` — Career experience and proof points
 - `engage.html` — $7,700/month contract engagement + negotiated commission and full-time path
 
-## Private pursuit pages
-
-These pages are intentionally excluded from navigation and include `noindex` metadata. They are designed for direct recruiter and hiring-leader outreach:
-
-- `assort.html`
-- `perplexity.html`
-- `listen-labs.html`
-- `scale.html`
-- `sierra.html`
-- `anthropic.html`
-- `cursor.html`
-- `pursuit-videos.html` — private Vidyard recording scripts
+Additional unlisted pursuit briefs are intentionally excluded from public navigation and crawler indexing for direct recruiter and hiring-leader outreach.
 
 Static HTML/CSS deployed from `main` to Vercel. No build step is required.
