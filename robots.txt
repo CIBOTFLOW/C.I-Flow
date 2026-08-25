@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /assort
+Disallow: /perplexity
+Disallow: /listen-labs
+Disallow: /scale
+Disallow: /sierra
+Disallow: /anthropic
+Disallow: /cursor
+Disallow: /pursuit-videos
