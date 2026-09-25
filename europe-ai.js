@@ -15,13 +15,25 @@ document.addEventListener('DOMContentLoaded',function(){
 
   function bestLane(x){
     var m=x.market||'';
-    if(m==='Financial Services')return 'Finance + Procurement AI';
-    if(m==='Retail & Consumer'||m==='Travel & Hospitality'||m==='Telecom & Media')return 'Customer Service / Contact Center AI';
-    if(m==='Software & IT')return 'AI Security / Cybersecurity';
-    if(m==='Construction & Real Estate'||m==='Food & Beverage')return 'Finance + Procurement AI';
-    return 'Enterprise Agents / Workflow AI';
+    var customerMarkets=[
+      'Financial Services',
+      'Healthcare & Life Sciences',
+      'Telecom & Media',
+      'Retail & Consumer',
+      'Energy & Utilities',
+      'Transport & Logistics',
+      'Travel & Hospitality'
+    ];
+    return customerMarkets.indexOf(m)!==-1
+      ? 'Customer Service / Contact Center AI'
+      : 'Enterprise Agents / Workflow AI';
   }
-  data=data.map(function(x){var y=Object.assign({},x);y.bestLane=bestLane(x);return y});
+
+  data=data.map(function(x){
+    var y=Object.assign({},x);
+    y.bestLane=bestLane(x);
+    return y;
+  });
 
   if(!data.length){
     if(count)count.textContent='Account data failed to load';
@@ -33,6 +45,11 @@ document.addEventListener('DOMContentLoaded',function(){
   function addOptions(el,vals){vals.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;el.appendChild(o)})}
   addOptions(country,Array.from(new Set(data.map(function(x){return x.country}))).sort());
   addOptions(market,Array.from(new Set(data.map(function(x){return x.market}))).sort());
+
+  var requestedLane=new URLSearchParams(window.location.search).get('lane');
+  if(lane&&requestedLane&&Array.from(lane.options).some(function(o){return o.value===requestedLane})){
+    lane.value=requestedLane;
+  }
 
   function filtered(){
     var q=(search.value||'').trim().toLowerCase();
@@ -51,9 +68,12 @@ document.addEventListener('DOMContentLoaded',function(){
     }).sort(function(a,b){
       var av=a[sortKey],bv=b[sortKey];
       if(typeof av==='string'){av=av.toLowerCase();bv=String(bv).toLowerCase()}
-      if(av<bv)return -1*sortDir;if(av>bv)return 1*sortDir;return a.rank-b.rank;
+      if(av<bv)return -1*sortDir;
+      if(av>bv)return 1*sortDir;
+      return a.rank-b.rank;
     });
   }
+
   function render(){
     var rows=filtered();
     count.textContent=rows.length.toLocaleString()+' accounts';
@@ -72,16 +92,35 @@ document.addEventListener('DOMContentLoaded',function(){
     }).join('');
   }
 
-  [search,country,market,lane,employees,revenue,tier].filter(Boolean).forEach(function(el){el.addEventListener(el===search?'input':'change',render)});
-  reset.addEventListener('click',function(){search.value='';country.value='';market.value='';if(lane)lane.value='';employees.value='';revenue.value='';tier.value='';sortKey='rank';sortDir=1;render()});
-  document.querySelectorAll('th[data-sort]').forEach(function(th){th.addEventListener('click',function(){var k=th.getAttribute('data-sort');if(sortKey===k)sortDir*=-1;else{sortKey=k;sortDir=1}render()})});
+  [search,country,market,lane,employees,revenue,tier].filter(Boolean).forEach(function(el){
+    el.addEventListener(el===search?'input':'change',render);
+  });
+
+  reset.addEventListener('click',function(){
+    search.value='';country.value='';market.value='';if(lane)lane.value='';employees.value='';revenue.value='';tier.value='';
+    sortKey='rank';sortDir=1;
+    if(window.history&&window.history.replaceState)window.history.replaceState({},'',window.location.pathname+'#accounts');
+    render();
+  });
+
+  document.querySelectorAll('th[data-sort]').forEach(function(th){
+    th.addEventListener('click',function(){
+      var k=th.getAttribute('data-sort');
+      if(sortKey===k)sortDir*=-1;
+      else{sortKey=k;sortDir=1}
+      render();
+    });
+  });
+
   exportBtn.addEventListener('click',function(){
     var rows=filtered();
-    var cols=['rank','company','group','country','city','market','industry','employees','employeeRange','revenue','revenueBand','bestLane','tier'];
+    var cols=['rank','company','group','country','city','market','industry','employees','employeeRange','revenueBand','bestLane','tier'];
     function csv(v){v=String(v==null?'':v);return '"'+v.replace(/"/g,'""')+'"'}
     var out=[cols.join(',')].concat(rows.map(function(r){return cols.map(function(c){return csv(r[c])}).join(',')})).join('\n');
     var blob=new Blob([out],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');
-    a.href=url;a.download='CI-Flow-European-AI-1000.csv';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);
+    a.href=url;a.download='CI-Flow-European-AI-1000-two-lane.csv';
+    document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);
   });
+
   render();
 });
