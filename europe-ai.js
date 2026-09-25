@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',function(){
   var search=document.getElementById('accountSearch');
   var country=document.getElementById('countryFilter');
   var market=document.getElementById('marketFilter');
-  var lane=document.getElementById('laneFilter');
+  var wedge=document.getElementById('wedgeFilter');
   var employees=document.getElementById('employeeFilter');
   var revenue=document.getElementById('revenueFilter');
   var tier=document.getElementById('tierFilter');
@@ -13,31 +13,24 @@ document.addEventListener('DOMContentLoaded',function(){
   var exportBtn=document.getElementById('exportAccounts');
   var sortKey='rank',sortDir=1;
 
-  function bestLane(x){
+  function agenticWedge(x){
     var m=x.market||'';
-    var customerMarkets=[
-      'Financial Services',
-      'Healthcare & Life Sciences',
-      'Telecom & Media',
-      'Retail & Consumer',
-      'Energy & Utilities',
-      'Transport & Logistics',
-      'Travel & Hospitality'
-    ];
-    return customerMarkets.indexOf(m)!==-1
-      ? 'Customer Service / Contact Center AI'
-      : 'Enterprise Agents / Workflow AI';
+    if(m==='Other B2B')return 'Cross-functional Workflow & Shared Services';
+    if(m==='Professional Services'||m==='Healthcare & Life Sciences'||m==='Financial Services')return 'Knowledge, Research & Compliance';
+    if(m==='Software & IT'||m==='Telecom & Media')return 'IT & Employee Service';
+    if(m==='Retail & Consumer'||m==='Travel & Hospitality')return 'Customer & Revenue Operations';
+    return 'Operations, Supply Chain & Field Work';
   }
 
   data=data.map(function(x){
     var y=Object.assign({},x);
-    y.bestLane=bestLane(x);
+    y.agenticWedge=agenticWedge(x);
     return y;
   });
 
   if(!data.length){
     if(count)count.textContent='Account data failed to load';
-    if(body)body.innerHTML='<tr><td colspan="8" style="padding:28px;color:#9da5ae">The European AI account dataset did not load. Refresh the page; if this persists, the data asset is unavailable.</td></tr>';
+    if(body)body.innerHTML='<tr><td colspan="8" style="padding:28px;color:#9da5ae">The European enterprise-agent dataset did not load. Refresh the page; if this persists, the data asset is unavailable.</td></tr>';
     return;
   }
 
@@ -46,9 +39,9 @@ document.addEventListener('DOMContentLoaded',function(){
   addOptions(country,Array.from(new Set(data.map(function(x){return x.country}))).sort());
   addOptions(market,Array.from(new Set(data.map(function(x){return x.market}))).sort());
 
-  var requestedLane=new URLSearchParams(window.location.search).get('lane');
-  if(lane&&requestedLane&&Array.from(lane.options).some(function(o){return o.value===requestedLane})){
-    lane.value=requestedLane;
+  var requestedWedge=new URLSearchParams(window.location.search).get('wedge');
+  if(wedge&&requestedWedge&&Array.from(wedge.options).some(function(o){return o.value===requestedWedge})){
+    wedge.value=requestedWedge;
   }
 
   function filtered(){
@@ -56,12 +49,12 @@ document.addEventListener('DOMContentLoaded',function(){
     return data.filter(function(x){
       if(country.value&&x.country!==country.value)return false;
       if(market.value&&x.market!==market.value)return false;
-      if(lane&&lane.value&&x.bestLane!==lane.value)return false;
+      if(wedge&&wedge.value&&x.agenticWedge!==wedge.value)return false;
       if(employees.value&&x.employeeRange!==employees.value)return false;
       if(revenue.value&&x.revenueBand!==revenue.value)return false;
       if(tier.value&&x.tier!==tier.value)return false;
       if(q){
-        var hay=[x.company,x.group,x.city,x.country,x.market,x.industry,x.bestLane].join(' ').toLowerCase();
+        var hay=[x.company,x.group,x.city,x.country,x.market,x.industry,x.agenticWedge].join(' ').toLowerCase();
         if(hay.indexOf(q)===-1)return false;
       }
       return true;
@@ -86,18 +79,18 @@ document.addEventListener('DOMContentLoaded',function(){
         '<td><span class="market-chip">'+esc(x.market)+'</span><small>'+esc(x.industry)+'</small></td>'+
         '<td class="num-cell">'+Number(x.employees).toLocaleString()+'<small>'+esc(x.employeeRange)+'</small></td>'+
         '<td class="num-cell"><strong>'+esc(x.revenueBand)+'</strong><small>Firmographic band</small></td>'+
-        '<td><span class="lane-chip">'+esc(x.bestLane)+'</span></td>'+
+        '<td><span class="lane-chip">'+esc(x.agenticWedge)+'</span></td>'+
         '<td><span class="tier tier-'+esc(x.tier.toLowerCase())+'">Tier '+esc(x.tier)+'</span></td>'+
       '</tr>';
     }).join('');
   }
 
-  [search,country,market,lane,employees,revenue,tier].filter(Boolean).forEach(function(el){
+  [search,country,market,wedge,employees,revenue,tier].filter(Boolean).forEach(function(el){
     el.addEventListener(el===search?'input':'change',render);
   });
 
   reset.addEventListener('click',function(){
-    search.value='';country.value='';market.value='';if(lane)lane.value='';employees.value='';revenue.value='';tier.value='';
+    search.value='';country.value='';market.value='';if(wedge)wedge.value='';employees.value='';revenue.value='';tier.value='';
     sortKey='rank';sortDir=1;
     if(window.history&&window.history.replaceState)window.history.replaceState({},'',window.location.pathname+'#accounts');
     render();
@@ -114,11 +107,11 @@ document.addEventListener('DOMContentLoaded',function(){
 
   exportBtn.addEventListener('click',function(){
     var rows=filtered();
-    var cols=['rank','company','group','country','city','market','industry','employees','employeeRange','revenueBand','bestLane','tier'];
+    var cols=['rank','company','group','country','city','market','industry','employees','employeeRange','revenueBand','agenticWedge','tier'];
     function csv(v){v=String(v==null?'':v);return '"'+v.replace(/"/g,'""')+'"'}
     var out=[cols.join(',')].concat(rows.map(function(r){return cols.map(function(c){return csv(r[c])}).join(',')})).join('\n');
     var blob=new Blob([out],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');
-    a.href=url;a.download='CI-Flow-European-AI-1000-two-lane.csv';
+    a.href=url;a.download='CI-Flow-Europe-Enterprise-Agents-1000.csv';
     document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);
   });
 
