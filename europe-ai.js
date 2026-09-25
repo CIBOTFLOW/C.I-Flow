@@ -2,6 +2,11 @@ document.addEventListener('DOMContentLoaded',function(){
   var data=(window.EUROPE_AI_TARGETS||[]).slice();
   var body=document.getElementById('accountRows');
   var count=document.getElementById('visibleCount');
+  if(!data.length){
+    if(count) count.textContent='Account data failed to load';
+    if(body) body.innerHTML='<tr><td colspan="8" style="padding:28px;color:#9da5ae">The European AI account dataset did not load. Refresh the page; if this persists, the data asset is unavailable.</td></tr>';
+    return;
+  }
   var search=document.getElementById('accountSearch');
   var country=document.getElementById('countryFilter');
   var market=document.getElementById('marketFilter');
