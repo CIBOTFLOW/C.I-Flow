@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded',function(){
         '<td>'+esc(x.country)+'<small>'+esc(x.city)+'</small></td>'+
         '<td><span class="market-chip">'+esc(x.market)+'</span><small>'+esc(x.industry)+'</small></td>'+
         '<td class="num-cell">'+Number(x.employees).toLocaleString()+'<small>'+esc(x.employeeRange)+'</small></td>'+
-        '<td class="num-cell">'+esc(x.revenue)+'<small>'+esc(x.revenueBand)+'</small></td>'+
+        '<td class="num-cell"><strong>'+esc(x.revenueBand)+'</strong><small>Firmographic band</small></td>'+
         '<td><span class="lane-chip">'+esc(x.bestLane)+'</span></td>'+
         '<td><span class="tier tier-'+esc(x.tier.toLowerCase())+'">Tier '+esc(x.tier)+'</span></td>'+
       '</tr>';
