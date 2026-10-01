@@ -2,16 +2,19 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
+  "routes": [
     {
-      "source": "/:path*",
+      "src": "/",
       "has": [
         {
           "type": "host",
           "value": "kore.ciflow.io"
         }
       ],
-      "destination": "/kore/:path*"
+      "dest": "/kore/index.html"
+    },
+    {
+      "handle": "filesystem"
     }
   ]
 }
