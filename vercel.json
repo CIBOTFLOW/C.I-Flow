@@ -2,19 +2,17 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
-  "routes": [
+  "redirects": [
     {
-      "src": "/",
+      "source": "/",
+      "destination": "/kore/index.html",
+      "permanent": false,
       "has": [
         {
           "type": "host",
           "value": "kore.ciflow.io"
         }
-      ],
-      "dest": "/kore/index.html"
-    },
-    {
-      "handle": "filesystem"
+      ]
     }
   ]
 }
