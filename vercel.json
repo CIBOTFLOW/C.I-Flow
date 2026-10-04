@@ -13,6 +13,17 @@
           "value": "kore.ciflow.io"
         }
       ]
+    },
+    {
+      "source": "/",
+      "destination": "/sanas/index.html",
+      "permanent": false,
+      "has": [
+        {
+          "type": "host",
+          "value": "sanas.ciflow.io"
+        }
+      ]
     }
   ]
 }
