@@ -16,5 +16,10 @@
     if(history.replaceState) history.replaceState(null,'','#'+valid);
   }
   tabs.forEach(b=>b.addEventListener('click',()=>showCase(b.dataset.case)));
+  document.querySelectorAll('[data-next-case]').forEach(btn=>btn.addEventListener('click',()=>{
+    showCase(btn.dataset.nextCase);
+    const anchor=document.querySelector('.page-hero');
+    if(anchor) anchor.scrollIntoView({behavior:'smooth',block:'start'});
+  }));
   if(tabs.length) showCase((location.hash||'#tp').slice(1));
 })();
