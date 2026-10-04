@@ -8,10 +8,7 @@
       "destination": "/kore/index.html",
       "permanent": false,
       "has": [
-        {
-          "type": "host",
-          "value": "kore.ciflow.io"
-        }
+        { "type": "host", "value": "kore.ciflow.io" }
       ]
     },
     {
@@ -19,10 +16,15 @@
       "destination": "/sanas/index.html",
       "permanent": false,
       "has": [
-        {
-          "type": "host",
-          "value": "sanas.ciflow.io"
-        }
+        { "type": "host", "value": "sanas.ciflow.io" }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/tulip/index.html",
+      "permanent": false,
+      "has": [
+        { "type": "host", "value": "tulip.ciflow.io" }
       ]
     }
   ]
