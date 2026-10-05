@@ -60,3 +60,23 @@ a{color:inherit;text-decoration:none}.shell{width:min(var(--max),calc(100% - 44p
  .grid4,.grid3,.grid2,.hub-grid,.research-status,.job-map,.schema,.flow,.scorecard,.urgency,.solution-ladder,.sales-cycle,.touch-flow,.signal{grid-template-columns:1fr}
  .signal>div{border-left:0;border-top:1px solid var(--line)}.signal>div:first-child{border-top:0}.stage{flex-direction:column;align-items:flex-end;gap:1px}.stage b{font-size:10.5px}.next-step{grid-template-columns:1fr}.next-step span{grid-row:auto}.footer{flex-direction:column}.profile-cta{grid-template-columns:1fr}.profile-button{width:100%}
 }
+.lang-toggle{display:flex;gap:3px;padding:3px;border:1px solid var(--line);border-radius:999px;background:#0b181e;margin-left:auto}
+.lang-toggle button{border:0;background:transparent;color:#8fa3a9;font:inherit;font-size:11px;font-weight:900;letter-spacing:.06em;padding:6px 8px;border-radius:999px;cursor:pointer}
+.lang-toggle button.active{background:var(--cyan);color:#061014}
+html[dir="rtl"] body{text-align:right}
+html[dir="rtl"] .brand,html[dir="rtl"] .section-head,html[dir="rtl"] .next-step{text-align:right}
+html[dir="rtl"] .tier ul,html[dir="rtl"] .qual ul,html[dir="rtl"] .icp-primary ul,html[dir="rtl"] .icp-secondary ul{padding-right:18px;padding-left:0}
+.research-toolbar{display:grid;grid-template-columns:minmax(220px,1fr) auto;gap:10px;align-items:center;margin:18px 0}
+.research-search{width:100%;border:1px solid var(--line);background:#0d1b21;color:#fff;border-radius:10px;padding:10px 12px;font:inherit;font-size:13px}
+.research-meta{font-size:12px;color:#82979e}
+.research-row.reviewed{background:rgba(111,215,221,.025)}
+.research-row.reviewed>div:first-child{border-left:3px solid var(--cyan)}
+.research-row.candidate{opacity:.72}
+.account-name{font-weight:850;color:#eaf1f3}.account-sub{display:block;color:#7f959b;font-size:10.5px;margin-top:3px}
+.tier-badge{display:inline-flex;padding:4px 7px;border-radius:999px;font-size:10.5px;font-weight:900;margin-top:4px}
+.tier-badge.gold{background:rgba(255,208,131,.12);color:var(--amber);border:1px solid rgba(255,208,131,.3)}
+.tier-badge.silver{background:rgba(135,191,255,.10);color:var(--blue);border:1px solid rgba(135,191,255,.28)}
+.tier-badge.nurture{background:rgba(158,177,183,.08);color:#a9b7bb;border:1px solid var(--line)}
+.source-links{display:flex;gap:5px;flex-wrap:wrap;margin-top:5px}.source-links a{font-size:10.5px;color:var(--cyan);border-bottom:1px solid rgba(111,215,221,.3)}
+.table-loading{padding:30px;text-align:center;color:#8ea2a8;font-size:13px}
+@media(max-width:760px){.research-toolbar{grid-template-columns:1fr}.lang-toggle{margin-left:0}.nav{flex-wrap:wrap;padding:10px 0}.stage{margin-left:auto}}
