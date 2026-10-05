@@ -107,7 +107,7 @@
 
  // EN / HE toggle. Company names, regulatory acronyms and evidence records remain in their source language.
  const he={
- "MEDDEV SOLUTIONS · SENIOR BUSINESS DEVELOPMENT MANAGER":"MEDDEV SOLUTIONS · מנהל/ת פיתוח עסקי בכיר/ה",
+ "MEDDEV SOLUTIONS · BUSINESS DEVELOPMENT SALES MANAGER":"MEDDEV SOLUTIONS · מנהל/ת פיתוח עסקי ומכירות",
  "BUILDING U.S. MEDTECH PIPELINE AROUND REAL REGULATORY NEED":"בניית צבר מכירות בארה״ב סביב צורך רגולטורי אמיתי",
  "OVERVIEW":"סקירה","MARKET":"שוק","INTELLIGENCE":"מודיעין","ENGAGEMENT":"פנייה לשוק","LAND + EXPAND":"כניסה והתרחבות","SALES SYSTEM":"מערכת מכירות","ACCOUNT RESEARCH LAB":"מעבדת מחקר חשבונות",
  "U.S. BUSINESS DEVELOPMENT":"פיתוח עסקי בארה״ב",
