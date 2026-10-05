@@ -28,7 +28,13 @@
           "label": "NIH award",
           "url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=R44HL167294&arg_ProgOfficeCode=130"
         }
-      ]
+      ],
+      "he_segment": "SaMD מבוסס AI לקרדיולוגיה",
+      "he_stage": "שלב מוקדם / נתמך מענקים",
+      "he_signal": "אישור FDA 510(k) בפברואר 2026 + ולידציה קלינית בתמיכת NIH",
+      "he_stakeholder": "Rachita Navara, מייסדת ומנכ״לית",
+      "he_next_action": "פנייה למייסדת: מסחור, IEC 62304/V&V ותמיכה בהתרחבות לאחר אישור",
+      "he_confidence": "גבוה"
     },
     {
       "company": "GuideAI Health",
@@ -47,7 +53,13 @@
           "label": "FDA 510(k) summary",
           "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260729.pdf"
         }
-      ]
+      ],
+      "he_segment": "AI לטריאז׳ ברדיולוגיה",
+      "he_stage": "שלב מוקדם",
+      "he_signal": "אישור FDA ביוני 2026 עבור תוכנת רדיולוגיה VAOT Class II",
+      "he_stakeholder": "Raj Shah, MD, MBA, מנכ״ל",
+      "he_next_action": "פנייה למנכ״ל סביב V&V, סייבר ויכולת רגולטורית/תוכנתית להתוויה הבאה",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Pathwai",
@@ -66,7 +78,13 @@
           "label": "FDA K260332",
           "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260332"
         }
-      ]
+      ],
+      "he_segment": "SaMD קרדיווסקולרי מבוסס AI",
+      "he_stage": "שלב מוקדם",
+      "he_signal": "אישור FDA ביוני 2026 עבור תוכנת ההתראה EchoNext ML",
+      "he_stakeholder": "מנכ״ל / CTO / אחראי רגולציה",
+      "he_next_action": "למפות את צוות המסחור ואז לפנות סביב האלגוריתם הבא, PCCP ומפת הדרכים ל-V&V",
+      "he_confidence": "גבוה"
     },
     {
       "company": "InformAI",
@@ -89,7 +107,13 @@
           "label": "InformAI team",
           "url": "https://www.informai.com/about-us"
         }
-      ]
+      ],
+      "he_segment": "AI אונקולוגי / רדיולוגי מסוג SaMD",
+      "he_stage": "שלב מוקדם",
+      "he_signal": "FDA 510(k) ביוני 2026 עבור RadOncAI; מוצרי AI נוספים בצנרת",
+      "he_stakeholder": "Jim Havelka, מנכ״ל",
+      "he_next_action": "פנייה למנכ״ל ולמוביל רגולציה סביב V&V, DHF ותמיכת IEC 62304 ניתנת להרחבה",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Cardiosense",
@@ -112,7 +136,13 @@
           "label": "Cardiosense leadership",
           "url": "https://cardiosense.com/about-us/"
         }
-      ]
+      ],
+      "he_segment": "אבחון AI לביש",
+      "he_stage": "מגובה הון סיכון",
+      "he_signal": "FDA De Novo במאי 2026 עבור PCWP Analysis Software עם PCCP מאושר",
+      "he_stakeholder": "Andrew Carek, מייסד-שותף ו-CTO / Arezou Azar, מנהלת רגולציה וציות",
+      "he_next_action": "פנייה מקבילה ל-CTO ולרגולציה סביב PCCP, מחזור חיי תוכנה ועומס ההתוויות הבאות",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Wesper",
@@ -131,7 +161,13 @@
           "label": "FDA K252628",
           "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252628"
         }
-      ]
+      ],
+      "he_segment": "אבחון שינה במכשיר מחובר",
+      "he_stage": "סטארטאפ בצמיחה",
+      "he_signal": "FDA 510(k) באפריל 2026 עבור CASSIE, מקליט מאמץ נשימתי",
+      "he_stakeholder": "מנכ״ל / CTO / אחראי רגולציה",
+      "he_next_action": "פנייה סביב תוכנת מכשור מחובר, סייבר ו-V&V לגרסת המוצר הבאה",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Alife Health",
@@ -154,7 +190,13 @@
           "label": "Alife CEO update",
           "url": "https://www.alifehealth.com/press/CEO-Update/"
         }
-      ]
+      ],
+      "he_segment": "AI לפוריות / SaMD",
+      "he_stage": "מגובה הון סיכון",
+      "he_signal": "אישור FDA במאי 2026 עבור Embryo Predict; החברה גייסה מעל $30M",
+      "he_stakeholder": "Melissa Teran, מנכ״לית",
+      "he_next_action": "פנייה למנכ״לית / מוצר-רגולציה סביב מחזור חיים רב-מוצרי, V&V והגשות AI עתידיות",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Medivis",
@@ -177,7 +219,13 @@
           "label": "FDA K231897",
           "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K231897"
         }
-      ]
+      ],
+      "he_segment": "תוכנת ניתוח AR",
+      "he_stage": "Series A / מסחור",
+      "he_signal": "אישור Spine Navigation באפריל 2025 + אישור ניווט גולגולתי באוקטובר 2025; צוות טכני קטן",
+      "he_stakeholder": "נשיא / הנהגת מוצר-רגולציה",
+      "he_next_action": "למקד יכולת תוכנה/רגולציה להתוויות ניווט הבאות ולעדכוני מחזור חיים",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Bayesian Health",
@@ -200,7 +248,13 @@
           "label": "CMS/Federal Register",
           "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/pdf/2026-15833.pdf"
         }
-      ]
+      ],
+      "he_segment": "AI לתמיכה בהחלטה קלינית",
+      "he_stage": "סטארטאפ בצמיחה",
+      "he_signal": "Breakthrough 510(k) של FDA באפריל 2026 ואישור NTAP לשנת FY2027 למכשיר לזיהוי ספסיס",
+      "he_stakeholder": "CTO / VP R&D / מוביל רגולציה",
+      "he_next_action": "למפות צוות תוכנה/רגולציה נוכחי ולפנות סביב התוויות הבאות, PCCP וניהול שינויים לאחר שיווק",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Subtle Medical",
@@ -227,7 +281,13 @@
           "label": "FDA establishment",
           "url": "https://www.accessdata.fda.gov/scrIpts/cdrh/cfdocs/cfRL/rl.cfm?rid=228281"
         }
-      ]
+      ],
+      "he_segment": "AI להדמיה רפואית",
+      "he_stage": "Series C / צמיחה",
+      "he_signal": "מימון צמיחה של $33M ביוני 2026 + רישומי FDA פעילים / מוצרי הדמיה מרובים",
+      "he_stakeholder": "Ohad Arazi, מנכ״ל",
+      "he_next_action": "פנייה מבוססת קשר באזור המפרץ סביב overflow ל-V&V, רגולציה גלובלית והתרחבות מוצר",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Bunkerhill Health",
@@ -250,7 +310,13 @@
           "label": "Series B",
           "url": "https://www.bunkerhillhealth.com/resources/series-b-announcement"
         }
-      ]
+      ],
+      "he_segment": "AI להדמיה / פלטפורמת מערכות בריאות",
+      "he_stage": "Series B",
+      "he_signal": "שני אישורי FDA חדשים במרץ 2026 + Series B של $55M ביולי 2026",
+      "he_stakeholder": "Nish Khandwala, מנכ״ל",
+      "he_next_action": "פנייה מקומית לבכירים; לבדוק אם מפת הדרכים להדמיה מפוקחת עדיין יוצרת overflow חיצוני ל-V&V/רגולציה",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Anumana",
@@ -277,7 +343,13 @@
           "label": "Leadership",
           "url": "https://anumana.ai/about-us/"
         }
-      ]
+      ],
+      "he_segment": "SaMD קרדיווסקולרי מבוסס AI",
+      "he_stage": "Series C / צמיחה",
+      "he_signal": "מספר אישורי FDA ב-2026 עם PCCP + תמיכת Series C מ-Boston Scientific ואחרים",
+      "he_stakeholder": "Maulik Nanavaty, מנכ״ל / Simos Kedikoglou, נשיא ו-COO",
+      "he_next_action": "למקד עומס התוויות הבאות ו-PCCP; לבדוק פערי קיבולת חיצוניים ב-V&V/סייבר/רגולציה",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Exo Imaging",
@@ -300,7 +372,13 @@
           "label": "Samsung partnership",
           "url": "https://www.exo.inc/article/exo-r-announces-samsung-medison-strategic-collaboration-and-welcomes-dr-omar"
         }
-      ]
+      ],
+      "he_segment": "אולטרסאונד AI, חומרה + תוכנה",
+      "he_stage": "סטארטאפ בצמיחה",
+      "he_signal": "אישור FDA לפלטפורמת AI בפברואר 2026 + השקעה/שיתוף פעולה אסטרטגי עם Samsung Medison",
+      "he_stakeholder": "CTO / VP R&D / מוביל רגולציה",
+      "he_next_action": "פנייה מבוססת קשר באזור המפרץ סביב V&V חומרה-תוכנה, סייבר ומפת דרכים משותפת למוצר",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Eko Health",
@@ -323,7 +401,13 @@
           "label": "Eko financing",
           "url": "https://www.ekohealth.com/blogs/newsroom/eko-health-raises-41-million-to-scale-ai-driven-heart-and-lung-disease-detection"
         }
-      ]
+      ],
+      "he_segment": "AI קרדיאלי/ריאתי, מכשיר + תוכנה",
+      "he_stage": "צמיחה",
+      "he_signal": "פלטפורמת AI מאושרת FDA + מימון $41M להרחבת זיהוי מחלות",
+      "he_stakeholder": "CTO / VP R&D / מוביל רגולציה",
+      "he_next_action": "פנייה מקומית; להתמקד ב-overflow ל-V&V תוכנה, סייבר והתרחבות רגולטורית בינלאומית",
+      "he_confidence": "גבוה"
     },
     {
       "company": "OrthoGrid Systems",
@@ -342,7 +426,13 @@
           "label": "FDA K260077",
           "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260077"
         }
-      ]
+      ],
+      "he_segment": "AI להדמיה אורתופדית",
+      "he_stage": "סטארטאפ בצמיחה",
+      "he_signal": "אישור FDA במאי 2026 עבור Hip AI 4.0; היסטוריה של מספר אישורי הדמיה",
+      "he_stakeholder": "VP R&D / רגולציה / מוביל תוכנה",
+      "he_next_action": "פנייה סביב גרסת התוכנה הבאה, V&V ועומס תיעוד היסטוריית התכנון",
+      "he_confidence": "גבוה"
     },
     {
       "company": "HistoSonics",
@@ -369,7 +459,13 @@
           "label": "Series D",
           "url": "https://histosonics.com/histosonics-secures-102m-series-d-financing/"
         }
-      ]
+      ],
+      "he_segment": "אולטרסאונד טיפולי + תוכנת תכנון",
+      "he_stage": "Series D",
+      "he_signal": "אישור FDA במאי 2026 לתוכנת תכנון + הגשה פעילה לגידולי כליה / הרחבת CE",
+      "he_stakeholder": "VP R&D / תוכנה / מוביל רגולציה",
+      "he_next_action": "לבדוק צורכי overflow בתוכנה/V&V/סייבר סביב התוויות חדשות והתרחבות בינלאומית",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Overjet",
@@ -392,7 +488,13 @@
           "label": "Overjet about",
           "url": "https://www.overjet.com/about"
         }
-      ]
+      ],
+      "he_segment": "SaMD דנטלי מבוסס AI",
+      "he_stage": "צמיחה / בקנה מידה",
+      "he_signal": "אישור FDA באפריל 2026 עבור Iris Intelligent Imaging System; גויסו מעל $130M",
+      "he_stakeholder": "CTO / הנהגת מוצר-רגולציה",
+      "he_next_action": "לבדוק צנרת מוצרים גלובלית ו-overflow חיצוני ברגולציה/V&V לפני השקעה משמעותית",
+      "he_confidence": "גבוה"
     },
     {
       "company": "Iterative Health",
@@ -411,7 +513,13 @@
           "label": "Series C",
           "url": "https://www.planetfirst.partners/news/planet-first-partners-invests-in-iterative-health"
         }
-      ]
+      ],
+      "he_segment": "AI גסטרו / טכנולוגיית מחקר קליני",
+      "he_stage": "Series C",
+      "he_signal": "Series C של $77M ב-2026; המיצוב הנוכחי מתמקד יותר ויותר בהאצת מחקר קליני",
+      "he_stakeholder": "CTO / מוביל מוצר",
+      "he_next_action": "לעקוב אחר כיוון המוצר; לפנות רק אם צנרת SaMD מפוקחת הופכת לחלק גדול יותר מהאסטרטגיה",
+      "he_confidence": "בינוני"
     }
   ]
 }
