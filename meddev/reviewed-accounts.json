@@ -1,6 +1,6 @@
 {
   "reviewed_at": "2026-10-05",
-  "count": 18,
+  "count": 24,
   "method": "Public evidence review using FDA, company sites, HHS/NIH and reputable funding sources",
   "accounts": [
     {
@@ -60,6 +60,35 @@
       "he_stakeholder": "Raj Shah, MD, MBA, מנכ״ל",
       "he_next_action": "פנייה למנכ״ל סביב V&V, סייבר ויכולת רגולטורית/תוכנתית להתוויה הבאה",
       "he_confidence": "גבוה"
+    },
+    {
+      "company": "AI Planning Logic",
+      "hq": "Santa Rosa, CA",
+      "segment": "AI orthopedic planning / imaging software",
+      "stage": "Seed / first clearance",
+      "account_iq": 95,
+      "tier": "Gold",
+      "signal": "First FDA 510(k) clearance Aug 2026 for Lower Limb AI; early-stage company with hip and ankle expansion planned",
+      "stakeholder": "Philippe Ballaire, Executive / FDA applicant contact",
+      "lead_iq": 89,
+      "next_action": "Direct founder/executive outreach around post-clearance commercialization, next anatomical modules, V&V and QMS scale-up",
+      "confidence": "High",
+      "he_segment": "AI לתכנון אורתופדי / תוכנת הדמיה",
+      "he_stage": "Seed / אישור ראשון",
+      "he_signal": "אישור FDA 510(k) ראשון באוגוסט 2026 עבור Lower Limb AI; חברה מוקדמת עם הרחבה מתוכננת לירך ולקרסול",
+      "he_stakeholder": "Philippe Ballaire, מנהל / איש קשר מול FDA",
+      "he_next_action": "פנייה ישירה סביב מסחור לאחר אישור, מודולים אנטומיים הבאים, V&V והרחבת QMS",
+      "he_confidence": "גבוה",
+      "evidence": [
+        {
+          "label": "FDA K261641",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261641"
+        },
+        {
+          "label": "AI Planning Logic",
+          "url": "https://aiplanninglogic.com/"
+        }
+      ]
     },
     {
       "company": "Pathwai",
@@ -145,6 +174,39 @@
       "he_confidence": "גבוה"
     },
     {
+      "company": "a2z Radiology AI",
+      "hq": "Boston, MA",
+      "segment": "Generalist radiology AI / SaMD",
+      "stage": "Seed / early commercial",
+      "account_iq": 93,
+      "tier": "Gold",
+      "signal": "FDA-cleared multi-condition abdomen-pelvis CT triage + $4.5M seed round; expanding broader imaging interpretation",
+      "stakeholder": "Samir Rajpurkar, Co-Founder & CEO / Pranav Rajpurkar, Co-Founder",
+      "lead_iq": 91,
+      "next_action": "Founder-led outreach around scaling regulated imaging software, V&V and future multi-finding submissions",
+      "confidence": "High",
+      "he_segment": "AI כללי לרדיולוגיה / SaMD",
+      "he_stage": "Seed / מסחור מוקדם",
+      "he_signal": "מערכת טריאז׳ CT רב-מצבית מאושרת FDA + סבב Seed של $4.5M; הרחבה לפרשנות הדמיה רחבה יותר",
+      "he_stakeholder": "Samir Rajpurkar, מייסד-שותף ומנכ״ל / Pranav Rajpurkar, מייסד-שותף",
+      "he_next_action": "פנייה למייסדים סביב הרחבת תוכנה רפואית מפוקחת, V&V והגשות עתידיות למודלים מרובי ממצאים",
+      "he_confidence": "גבוה",
+      "evidence": [
+        {
+          "label": "FDA K260906",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260906"
+        },
+        {
+          "label": "a2z leadership",
+          "url": "https://a2zradiology.ai/about/"
+        },
+        {
+          "label": "a2z seed funding",
+          "url": "https://a2zradiology.ai/news/seed-funding-2025/"
+        }
+      ]
+    },
+    {
       "company": "Wesper",
       "hq": "Long Island City, NY",
       "segment": "Connected sleep diagnostics",
@@ -168,6 +230,39 @@
       "he_stakeholder": "מנכ״ל / CTO / אחראי רגולציה",
       "he_next_action": "פנייה סביב תוכנת מכשור מחובר, סייבר ו-V&V לגרסת המוצר הבאה",
       "he_confidence": "גבוה"
+    },
+    {
+      "company": "UpDoc",
+      "hq": "Palo Alto, CA",
+      "segment": "Agentic clinical AI / SaMD",
+      "stage": "Seed / early deployment",
+      "account_iq": 92,
+      "tier": "Gold",
+      "signal": "FDA-cleared patient-facing clinical AI + $18M seed + up to $9.2M ARPA-H award for future autonomous cardiovascular AI",
+      "stakeholder": "Sharif Vakili, CEO / Ashwin Nayak, CTO / Kendal Dinsmore, VP Regulatory & Quality",
+      "lead_iq": 93,
+      "next_action": "Multi-thread CEO, CTO and Regulatory around next FDA authorization, V&V, QMS and scalable software lifecycle support",
+      "confidence": "High",
+      "he_segment": "AI קליני סוכני / SaMD",
+      "he_stage": "Seed / פריסה מוקדמת",
+      "he_signal": "AI קליני הפונה למטופל עם אישור FDA + Seed של $18M + עד $9.2M מ-ARPA-H לפיתוח AI קרדיווסקולרי אוטונומי",
+      "he_stakeholder": "Sharif Vakili, מנכ״ל / Ashwin Nayak, CTO / Kendal Dinsmore, VP רגולציה ואיכות",
+      "he_next_action": "פנייה מקבילה למנכ״ל, CTO ורגולציה סביב האישור הבא, V&V, QMS ותמיכת מחזור חיי תוכנה בקנה מידה",
+      "he_confidence": "גבוה",
+      "evidence": [
+        {
+          "label": "UpDoc leadership",
+          "url": "https://updoc.com/about"
+        },
+        {
+          "label": "FDA + seed announcement",
+          "url": "https://www.prnewswire.com/news-releases/updoc-debuts-first-fda-cleared-clinical-ai-platform-built-for-real-time-patient-care-delivery-and-intelligent-care-coordination-302810065.html"
+        },
+        {
+          "label": "ARPA-H award",
+          "url": "https://www.prnewswire.com/news-releases/arpa-h-selects-updoc-to-lead-development-of-autonomous-clinical-ai-system-in-an-initiative-joined-by-microsoft-openai-and-nvidia-302873780.html"
+        }
+      ]
     },
     {
       "company": "Alife Health",
@@ -290,6 +385,39 @@
       "he_confidence": "גבוה"
     },
     {
+      "company": "UltraSight",
+      "hq": "Cambridge, MA",
+      "segment": "AI-guided cardiac ultrasound",
+      "stage": "Series B2 / U.S. expansion",
+      "account_iq": 88,
+      "tier": "Silver",
+      "signal": "Expanded FDA clearance Jan 2026 + $24M Series B2 Sep 2026 to scale U.S. cardiac workflow platform and new use cases",
+      "stakeholder": "Davidi Vortman, CEO / Itay Kezurer, CTO",
+      "lead_iq": 84,
+      "next_action": "Target expansion workload around new clinical workflows, device compatibility, V&V and U.S. regulatory scaling",
+      "confidence": "High",
+      "he_segment": "אולטרסאונד קרדיאלי מונחה AI",
+      "he_stage": "Series B2 / התרחבות בארה״ב",
+      "he_signal": "הרחבת אישור FDA בינואר 2026 + Series B2 של $24M בספטמבר 2026 להרחבת פלטפורמת workflow קרדיאלית בארה״ב ושימושים חדשים",
+      "he_stakeholder": "Davidi Vortman, מנכ״ל / Itay Kezurer, CTO",
+      "he_next_action": "למקד עומס התרחבות סביב workflows קליניים חדשים, תאימות למכשירים, V&V והתרחבות רגולטורית בארה״ב",
+      "he_confidence": "גבוה",
+      "evidence": [
+        {
+          "label": "UltraSight FDA expansion",
+          "url": "https://ultrasight.com/fda-clearance-across-ultrasound-systems/"
+        },
+        {
+          "label": "Series B2",
+          "url": "https://ultrasight.com/ultrasight-raises-24-million-to-scale-its-ai-guided-cardiac-workflow-platform-across-u-s-health-systems/"
+        },
+        {
+          "label": "Leadership",
+          "url": "https://ultrasight.com/our-team/"
+        }
+      ]
+    },
+    {
       "company": "Bunkerhill Health",
       "hq": "San Francisco, CA",
       "segment": "AI imaging / health-system platform",
@@ -381,6 +509,39 @@
       "he_confidence": "גבוה"
     },
     {
+      "company": "ArteraAI",
+      "hq": "Los Altos, CA",
+      "segment": "AI oncology / digital pathology",
+      "stage": "Growth / multi-indication",
+      "account_iq": 86,
+      "tier": "Silver",
+      "signal": "FDA clearance May 2026 for ArteraAI Breast, adding breast to existing prostate platform and expanding U.S./EU regulatory footprint",
+      "stakeholder": "Andre Esteva, CEO & Co-Founder / Nathan Silberman, CTO",
+      "lead_iq": 83,
+      "next_action": "Qualify external V&V, software lifecycle and regulatory overflow across multi-cancer indication expansion",
+      "confidence": "High",
+      "he_segment": "AI אונקולוגי / פתולוגיה דיגיטלית",
+      "he_stage": "צמיחה / ריבוי התוויות",
+      "he_signal": "אישור FDA במאי 2026 עבור ArteraAI Breast, בנוסף לפלטפורמת הערמונית והתרחבות רגולטורית בארה״ב ובאירופה",
+      "he_stakeholder": "Andre Esteva, מנכ״ל ומייסד-שותף / Nathan Silberman, CTO",
+      "he_next_action": "לבדוק overflow חיצוני ב-V&V, מחזור חיי תוכנה ורגולציה סביב התרחבות למספר סוגי סרטן",
+      "he_confidence": "גבוה",
+      "evidence": [
+        {
+          "label": "Artera FDA announcement",
+          "url": "https://artera.ai/news/artera-receives-u-s-fda-clearance-for-arteraai-breast-expanding-its-ai-platform-to-breast-cancer"
+        },
+        {
+          "label": "FDA K254115",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K254115"
+        },
+        {
+          "label": "Artera leadership",
+          "url": "https://artera.ai/our-company/our-team"
+        }
+      ]
+    },
+    {
       "company": "Eko Health",
       "hq": "Emeryville, CA",
       "segment": "AI cardiac / pulmonary device + software",
@@ -433,6 +594,35 @@
       "he_stakeholder": "VP R&D / רגולציה / מוביל תוכנה",
       "he_next_action": "פנייה סביב גרסת התוכנה הבאה, V&V ועומס תיעוד היסטוריית התכנון",
       "he_confidence": "גבוה"
+    },
+    {
+      "company": "Vektor Medical",
+      "hq": "San Diego, CA",
+      "segment": "Computational ECG / cardiac SaMD",
+      "stage": "Growth",
+      "account_iq": 84,
+      "tier": "Silver",
+      "signal": "FDA-cleared vMap computational ECG mapping platform with active cardiac software commercialization",
+      "stakeholder": "Rob Krummen, CEO",
+      "lead_iq": 79,
+      "next_action": "Qualify next software releases, algorithm V&V, cybersecurity and regulatory capacity needs",
+      "confidence": "High",
+      "he_segment": "ECG חישובי / SaMD קרדיאלי",
+      "he_stage": "צמיחה",
+      "he_signal": "פלטפורמת vMap למיפוי ECG חישובי עם אישור FDA ומסחור פעיל של תוכנה קרדיאלית",
+      "he_stakeholder": "Rob Krummen, מנכ״ל",
+      "he_next_action": "לבדוק צרכים לגרסאות תוכנה הבאות, V&V לאלגוריתמים, סייבר וקיבולת רגולטורית",
+      "he_confidence": "גבוה",
+      "evidence": [
+        {
+          "label": "FDA K252429",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252429"
+        },
+        {
+          "label": "Vektor leadership",
+          "url": "https://www.vektormedical.com/team"
+        }
+      ]
     },
     {
       "company": "HistoSonics",
