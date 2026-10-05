@@ -89,3 +89,6 @@ html[dir="rtl"] .tier ul,html[dir="rtl"] .qual ul,html[dir="rtl"] .icp-primary u
 .table-wrap::-webkit-scrollbar-thumb{background:#28424b;border-radius:10px;border:2px solid #0b181e}
 .table-wrap::-webkit-scrollbar-track{background:#0b181e}
 @media(max-width:620px){.table-wrap{max-height:520px}}
+
+.research-scroll-hint{margin:8px 2px 7px;text-align:right;color:#7f959b;font-size:11.5px;font-weight:800;letter-spacing:.04em}
+html[dir="rtl"] .research-scroll-hint{text-align:left}
