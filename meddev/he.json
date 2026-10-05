@@ -1,12 +1,10 @@
 {
-  "Senior Business Development Manager | MedDev Solutions": "מנהל/ת פיתוח עסקי בכיר/ה | MedDev Solutions",
   "Market + Account IQ | MedDev Solutions": "שוק + Account IQ | MedDev Solutions",
   "Intent + Lead IQ | MedDev Solutions": "כוונת קנייה + Lead IQ | MedDev Solutions",
   "Engagement Strategy | MedDev Solutions": "אסטרטגיית פנייה לשוק | MedDev Solutions",
   "Land + Expand | MedDev Solutions": "כניסה והתרחבות | MedDev Solutions",
   "Qualification + Deal System | MedDev Solutions": "הסמכה + מערכת עסקאות | MedDev Solutions",
   "U.S. Account Research Lab | MedDev Solutions": "מעבדת מחקר חשבונות בארה״ב | MedDev Solutions",
-  "MEDDEV SOLUTIONS · SENIOR BUSINESS DEVELOPMENT MANAGER": "MEDDEV SOLUTIONS · מנהל/ת פיתוח עסקי בכיר/ה",
   "BUILDING U.S. MEDTECH PIPELINE AROUND REAL REGULATORY NEED": "בניית צבר מכירות MedTech בארה״ב סביב צורך רגולטורי אמיתי",
   "OVERVIEW": "סקירה",
   "MARKET": "שוק",
@@ -475,5 +473,7 @@
   "Gold candidate": "מועמד ל-Gold",
   "Silver fit": "התאמה ל-Silver",
   "Low priority": "עדיפות נמוכה",
-  "Scroll accounts ↓": "גלילה בחשבונות ↓"
+  "Scroll accounts ↓": "גלילה בחשבונות ↓",
+  "Business Development Sales Manager | MedDev Solutions": "מנהל/ת פיתוח עסקי ומכירות | MedDev Solutions",
+  "MEDDEV SOLUTIONS · BUSINESS DEVELOPMENT SALES MANAGER": "MEDDEV SOLUTIONS · מנהל/ת פיתוח עסקי ומכירות"
 }
