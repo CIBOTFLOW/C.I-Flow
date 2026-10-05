@@ -5,8 +5,12 @@
    const total=scores.filter(x=>x.classList.contains('active')).reduce((a,x)=>a+Number(x.dataset.score||0),0);
    if(scoreOut){
      const tier=total>=80?'Gold candidate':total>=55?'Silver fit':'Low priority';
+     const isHe=localStorage.getItem('meddevLang')==='he';
+     const heTier=total>=80?'מועמד ל-Gold':total>=55?'התאמה ל-Silver':'עדיפות נמוכה';
      scoreOut.querySelector('strong').textContent=total+' / 100';
-     scoreOut.querySelector('span').textContent=tier+'. Account IQ should be reweighted after reviewing MedDev Solutions conversion history.';
+     scoreOut.querySelector('span').textContent=isHe
+       ? heTier+'. יש לכייל מחדש את Account IQ לאחר בדיקת היסטוריית ההמרה של MedDev Solutions.'
+       : tier+'. Account IQ should be reweighted after reviewing MedDev Solutions conversion history.';
    }
  }
  scores.forEach(x=>x.addEventListener('click',()=>{x.classList.toggle('active');updateScore();}));
@@ -19,9 +23,11 @@
    leadChoices.filter(x=>x.classList.contains('active')).forEach(x=>chosen[x.dataset.leadGroup]=Number(x.dataset.leadScore||0));
    const total=Object.values(chosen).reduce((a,b)=>a+b,0);
    if(leadOut){
+     const isHe=localStorage.getItem('meddevLang')==='he';
      const msg=total>=75?'Priority contact. Use direct phone, LinkedIn and personalized email.':total>=45?'Relevant contact. Add context or engagement before heavy outreach.':'Low-priority contact. Keep in nurture or find a better stakeholder.';
+     const heMsg=total>=75?'איש קשר בעדיפות גבוהה. להשתמש בטלפון ישיר, LinkedIn ואימייל אישי.':total>=45?'איש קשר רלוונטי. להוסיף הקשר או מעורבות לפני outreach משמעותי.':'איש קשר בעדיפות נמוכה. להשאיר ב-nurture או למצוא stakeholder מתאים יותר.';
      leadOut.querySelector('strong').textContent=total+' / 100';
-     leadOut.querySelector('span').textContent=msg;
+     leadOut.querySelector('span').textContent=isHe?heMsg:msg;
    }
  }
  leadChoices.forEach(btn=>btn.addEventListener('click',()=>{
@@ -40,11 +46,18 @@
    const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
    const sourceLinks=a=>(a.evidence||[]).slice(0,3).map((e,i)=>'<a target="_blank" rel="noopener" href="'+esc(e.url)+'">'+esc(e.label||('Source '+(i+1)))+'</a>').join('');
    function reviewedRow(a){
+     const isHe=localStorage.getItem('meddevLang')==='he';
+     const confidence=isHe?(a.he_confidence||a.confidence):(a.confidence+' confidence');
+     const segment=isHe?(a.he_segment||a.segment):a.segment;
+     const stage=isHe?(a.he_stage||a.stage):a.stage;
+     const signal=isHe?(a.he_signal||a.signal):a.signal;
+     const stakeholder=isHe?(a.he_stakeholder||a.stakeholder):a.stakeholder;
+     const nextAction=isHe?(a.he_next_action||a.next_action):a.next_action;
      return '<div class="research-row reviewed">'+
-       '<div><span class="account-name">'+esc(a.company)+'</span><span class="account-sub">'+esc(a.confidence)+' confidence</span><div class="source-links">'+sourceLinks(a)+'</div></div>'+
-       '<div>'+esc(a.hq)+'</div><div>'+esc(a.segment)+'</div><div>'+esc(a.stage)+'</div>'+
+       '<div><span class="account-name">'+esc(a.company)+'</span><span class="account-sub">'+esc(confidence)+'</span><div class="source-links">'+sourceLinks(a)+'</div></div>'+
+       '<div>'+esc(a.hq)+'</div><div>'+esc(segment)+'</div><div>'+esc(stage)+'</div>'+
        '<div><b>'+esc(a.account_iq)+'</b><br><span class="tier-badge '+String(a.tier).toLowerCase()+'">'+esc(a.tier)+'</span></div>'+
-       '<div>'+esc(a.signal)+'</div><div>'+esc(a.stakeholder)+'</div><div><b>'+esc(a.lead_iq)+'</b></div><div>'+esc(a.next_action)+'</div></div>';
+       '<div>'+esc(signal)+'</div><div>'+esc(stakeholder)+'</div><div><b>'+esc(a.lead_iq)+'</b></div><div>'+esc(nextAction)+'</div></div>';
    }
    function candidateRow(a){
      return '<div class="research-row candidate">'+
@@ -140,6 +153,7 @@
  "Reviewed":"נבדקו","All 1,018 candidates":"כל 1,018 המועמדים","Nurture":"Nurture","Pending":"ממתין לבדיקה","Candidate":"מועמד","Not scored":"טרם דורג","Evidence review pending":"ממתין לבדיקת ראיות","Review ICP + public evidence":"בדיקת ICP + ראיות פומביות","High confidence":"ביטחון גבוה","Medium confidence":"ביטחון בינוני"
  };
  let lang=localStorage.getItem('meddevLang')||'en';
+ const originalTitle=document.title;
  const originals=new WeakMap();
  function translateNode(root,language){
    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
@@ -158,9 +172,11 @@
    lang=next;localStorage.setItem('meddevLang',lang);
    document.documentElement.lang=lang==='he'?'he':'en';
    document.documentElement.dir=lang==='he'?'rtl':'ltr';
+   document.title=lang==='he'?(he[originalTitle]||originalTitle):originalTitle;
    translateNode(document.body,lang);
    document.querySelectorAll('.lang-toggle button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
-   const s=document.getElementById('accountSearch');if(s)s.placeholder=lang==='he'?'חיפוש חברה, סגמנט, סיגנל או בעל עניין':'Search company, segment, signal or stakeholder';
+   const searchInput=document.getElementById('accountSearch');if(searchInput)searchInput.placeholder=lang==='he'?'חיפוש חברה, סגמנט, סיגנל או בעל עניין':'Search company, segment, signal or stakeholder';
+   if(typeof render==='function' && document.getElementById('researchTable')) { try{render();}catch(e){} }
  }
  const nav=document.querySelector('.nav');
  if(nav){
@@ -170,4 +186,8 @@
    box.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
  }
  setLang(lang);
+ fetch('/meddev/he.json').then(r=>r.json()).then(extra=>{
+   Object.assign(he,extra);
+   setLang(lang);
+ }).catch(()=>{});
 })();
