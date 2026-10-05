@@ -60,14 +60,16 @@
        rows.sort((a,b)=>b.account_iq-a.account_iq);
        table.querySelectorAll('.research-row:not(:first-child),.table-loading,.empty-row').forEach(x=>x.remove());
        table.insertAdjacentHTML('beforeend',rows.map(reviewedRow).join('')||'<div class="empty-row">No reviewed accounts match this filter.</div>');
-       if(meta) meta.textContent='Showing '+rows.length+' evidence-reviewed account'+(rows.length===1?'':'s');
+       if(meta) meta.textContent=lang==='he'?'מוצגים '+rows.length+' חשבונות שנבדקו':'Showing '+rows.length+' evidence-reviewed account'+(rows.length===1?'':'s');
+       if(lang==='he') translateNode(table,'he');
      }else{
        rows=candidates;
        if(q) rows=rows.filter(a=>((a.name||'')+' '+(a.domain||'')+' '+(a.source||'')).toLowerCase().includes(q));
        table.querySelectorAll('.research-row:not(:first-child),.table-loading,.empty-row').forEach(x=>x.remove());
        const shown=rows.slice(0,q?300:150);
        table.insertAdjacentHTML('beforeend',shown.map(candidateRow).join('')||'<div class="empty-row">No candidates match this search.</div>');
-       if(meta) meta.textContent='Showing '+shown.length+' of '+rows.length+' candidate accounts'+(rows.length>shown.length?' · refine search to narrow':'');
+       if(meta) meta.textContent=lang==='he'?'מוצגים '+shown.length+' מתוך '+rows.length+' חשבונות מועמדים':'Showing '+shown.length+' of '+rows.length+' candidate accounts'+(rows.length>shown.length?' · refine search to narrow':'');
+       if(lang==='he') translateNode(table,'he');
      }
    }
    Promise.all([
@@ -135,7 +137,7 @@
  "RESEARCH SCHEMA":"סכמת מחקר","What each row will contain.":"מה כל שורה תכיל.","SCORING OUTPUT":"פלט דירוג","The table should produce action, not just rankings.":"הטבלה צריכה לייצר פעולה, לא רק דירוג.",
  "ABOUT ME":"עליי","See my broader GTM work.":"לצפייה בעבודת ה-GTM הרחבה שלי.","View profile →":"צפייה בפרופיל ←",
  "Company":"חברה","HQ":"מטה","Segment":"סגמנט","Stage":"שלב","Top signal":"סיגנל מוביל","Top stakeholder":"בעל עניין מוביל","Next action":"הפעולה הבאה",
- "Reviewed":"נבדקו","All 1,018 candidates":"כל 1,018 המועמדים","Nurture":"Nurture"
+ "Reviewed":"נבדקו","All 1,018 candidates":"כל 1,018 המועמדים","Nurture":"Nurture","Pending":"ממתין לבדיקה","Candidate":"מועמד","Not scored":"טרם דורג","Evidence review pending":"ממתין לבדיקת ראיות","Review ICP + public evidence":"בדיקת ICP + ראיות פומביות","High confidence":"ביטחון גבוה","Medium confidence":"ביטחון בינוני"
  };
  let lang=localStorage.getItem('meddevLang')||'en';
  const originals=new WeakMap();
