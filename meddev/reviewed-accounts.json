@@ -1,0 +1,417 @@
+{
+  "reviewed_at": "2026-10-05",
+  "count": 18,
+  "method": "Public evidence review using FDA, company sites, HHS/NIH and reputable funding sources",
+  "accounts": [
+    {
+      "company": "SafeBeat Rx",
+      "hq": "San Francisco, CA",
+      "segment": "AI cardiac SaMD",
+      "stage": "Early / grant-backed",
+      "account_iq": 96,
+      "tier": "Gold",
+      "signal": "FDA 510(k) clearance Feb 2026 + NIH-backed clinical validation",
+      "stakeholder": "Rachita Navara, Founder & CEO",
+      "lead_iq": 95,
+      "next_action": "Founder-led call: commercialization, IEC 62304/V&V and post-clearance scale support",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA K251218",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251218"
+        },
+        {
+          "label": "SafeBeat leadership",
+          "url": "https://safebeat.com/about/"
+        },
+        {
+          "label": "NIH award",
+          "url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=R44HL167294&arg_ProgOfficeCode=130"
+        }
+      ]
+    },
+    {
+      "company": "GuideAI Health",
+      "hq": "Boston, MA",
+      "segment": "AI radiology triage",
+      "stage": "Early",
+      "account_iq": 95,
+      "tier": "Gold",
+      "signal": "FDA clearance Jun 2026 for VAOT Class II radiology software",
+      "stakeholder": "Raj Shah, MD, MBA, CEO",
+      "lead_iq": 94,
+      "next_action": "CEO outreach around V&V, cybersecurity and next-indication regulatory software capacity",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA 510(k) summary",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260729.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Pathwai",
+      "hq": "New York, NY",
+      "segment": "AI cardiovascular SaMD",
+      "stage": "Early",
+      "account_iq": 94,
+      "tier": "Gold",
+      "signal": "FDA clearance Jun 2026 for EchoNext ML notification software",
+      "stakeholder": "CEO / CTO / regulatory owner",
+      "lead_iq": 88,
+      "next_action": "Map commercialization team, then call on next algorithm / PCCP / V&V roadmap",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA K260332",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260332"
+        }
+      ]
+    },
+    {
+      "company": "InformAI",
+      "hq": "Houston, TX",
+      "segment": "AI oncology / radiology SaMD",
+      "stage": "Early",
+      "account_iq": 94,
+      "tier": "Gold",
+      "signal": "FDA 510(k) Jun 2026 for RadOncAI; additional AI products in pipeline",
+      "stakeholder": "Jim Havelka, CEO",
+      "lead_iq": 93,
+      "next_action": "CEO + Regulatory Lead outreach on pipeline V&V, DHF and scalable IEC 62304 support",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA K253050",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253050"
+        },
+        {
+          "label": "InformAI team",
+          "url": "https://www.informai.com/about-us"
+        }
+      ]
+    },
+    {
+      "company": "Cardiosense",
+      "hq": "Chicago, IL",
+      "segment": "Wearable AI diagnostics",
+      "stage": "Venture-backed",
+      "account_iq": 93,
+      "tier": "Gold",
+      "signal": "FDA De Novo May 2026 for PCWP Analysis Software with authorized PCCP",
+      "stakeholder": "Andrew Carek, Co-founder & CTO / Arezou Azar, Chief Regulatory & Compliance Officer",
+      "lead_iq": 92,
+      "next_action": "CTO + regulatory dual-thread around PCCP, software lifecycle and next indication workload",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA DEN250057",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN250057"
+        },
+        {
+          "label": "Cardiosense leadership",
+          "url": "https://cardiosense.com/about-us/"
+        }
+      ]
+    },
+    {
+      "company": "Wesper",
+      "hq": "Long Island City, NY",
+      "segment": "Connected sleep diagnostics",
+      "stage": "Growth startup",
+      "account_iq": 92,
+      "tier": "Gold",
+      "signal": "FDA 510(k) Apr 2026 for CASSIE ventilatory effort recorder",
+      "stakeholder": "CEO / CTO / regulatory owner",
+      "lead_iq": 86,
+      "next_action": "Call on connected-device software, cyber and V&V needs around next product iteration",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA K252628",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252628"
+        }
+      ]
+    },
+    {
+      "company": "Alife Health",
+      "hq": "San Francisco, CA",
+      "segment": "AI fertility / SaMD",
+      "stage": "Venture-backed",
+      "account_iq": 91,
+      "tier": "Gold",
+      "signal": "FDA clearance May 2026 for Embryo Predict; company has raised $30M+",
+      "stakeholder": "Melissa Teran, CEO",
+      "lead_iq": 91,
+      "next_action": "CEO / product-regulatory outreach on multi-product lifecycle, V&V and future AI submissions",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "Alife FDA announcement",
+          "url": "https://www.alifehealth.com/press/fda/"
+        },
+        {
+          "label": "Alife CEO update",
+          "url": "https://www.alifehealth.com/press/CEO-Update/"
+        }
+      ]
+    },
+    {
+      "company": "Medivis",
+      "hq": "New York, NY",
+      "segment": "AR surgical software",
+      "stage": "Series A / commercializing",
+      "account_iq": 90,
+      "tier": "Gold",
+      "signal": "Spine Navigation clearance Apr 2025 + cranial navigation clearance Oct 2025; small technical team",
+      "stakeholder": "President / product-regulatory leadership",
+      "lead_iq": 85,
+      "next_action": "Target software/regulatory capacity for next navigation indications and lifecycle updates",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "Medivis timeline",
+          "url": "https://www.medivis.com/about"
+        },
+        {
+          "label": "FDA K231897",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K231897"
+        }
+      ]
+    },
+    {
+      "company": "Bayesian Health",
+      "hq": "Baltimore, MD",
+      "segment": "AI clinical decision support",
+      "stage": "Growth startup",
+      "account_iq": 89,
+      "tier": "Gold",
+      "signal": "FDA Breakthrough 510(k) Apr 2026 and FY2027 NTAP approval for sepsis flagging device",
+      "stakeholder": "CTO / VP R&D / regulatory leader",
+      "lead_iq": 84,
+      "next_action": "Map current software/regulatory team and approach around next indications, PCCP and post-market change control",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA Breakthrough list",
+          "url": "https://www.fda.gov/medical-devices/how-study-and-market-your-device/breakthrough-devices-program"
+        },
+        {
+          "label": "CMS/Federal Register",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/pdf/2026-15833.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Subtle Medical",
+      "hq": "Menlo Park, CA",
+      "segment": "AI medical imaging",
+      "stage": "Series C / growth",
+      "account_iq": 88,
+      "tier": "Silver",
+      "signal": "$33M growth financing Jun 2026 + active FDA registrations / multiple imaging products",
+      "stakeholder": "Ohad Arazi, CEO",
+      "lead_iq": 82,
+      "next_action": "Bay Area relationship-led outreach around overflow V&V, global regulatory and product expansion",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "Subtle funding",
+          "url": "https://subtlemedical.com/subtle-medical-secures-33-million-in-growth-capital-led-by-morgan-stanley-expansion-capital-and-appoints-industry-veteran-ohad-arazi-as-ceo/"
+        },
+        {
+          "label": "Subtle leadership",
+          "url": "https://subtlemedical.com/about-us/"
+        },
+        {
+          "label": "FDA establishment",
+          "url": "https://www.accessdata.fda.gov/scrIpts/cdrh/cfdocs/cfRL/rl.cfm?rid=228281"
+        }
+      ]
+    },
+    {
+      "company": "Bunkerhill Health",
+      "hq": "San Francisco, CA",
+      "segment": "AI imaging / health-system platform",
+      "stage": "Series B",
+      "account_iq": 87,
+      "tier": "Silver",
+      "signal": "Two new FDA clearances Mar 2026 + $55M Series B Jul 2026",
+      "stakeholder": "Nish Khandwala, CEO",
+      "lead_iq": 82,
+      "next_action": "Local executive outreach; qualify whether regulated imaging roadmap still creates external V&V/regulatory overflow",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA K260167",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K260167"
+        },
+        {
+          "label": "Series B",
+          "url": "https://www.bunkerhillhealth.com/resources/series-b-announcement"
+        }
+      ]
+    },
+    {
+      "company": "Anumana",
+      "hq": "Cambridge, MA",
+      "segment": "AI cardiovascular SaMD",
+      "stage": "Series C / growth",
+      "account_iq": 87,
+      "tier": "Silver",
+      "signal": "Multiple 2026 FDA clearances with PCCP + Series C support from Boston Scientific and others",
+      "stakeholder": "Maulik Nanavaty, CEO / Simos Kedikoglou, President & COO",
+      "lead_iq": 83,
+      "next_action": "Target next-indication and PCCP workload; qualify external V&V/cyber/regulatory capacity gaps",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA K253801",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253801"
+        },
+        {
+          "label": "Anumana expansion",
+          "url": "https://anumana.ai/anumana-expands-ai-platform-from-diagnostic-solutions-to-the-full-continuum-of-cardiovascular-care/"
+        },
+        {
+          "label": "Leadership",
+          "url": "https://anumana.ai/about-us/"
+        }
+      ]
+    },
+    {
+      "company": "Exo Imaging",
+      "hq": "Santa Clara, CA",
+      "segment": "AI ultrasound hardware + software",
+      "stage": "Growth startup",
+      "account_iq": 86,
+      "tier": "Silver",
+      "signal": "FDA AI Platform clearance Feb 2026 + Samsung Medison strategic investment/collaboration",
+      "stakeholder": "CTO / VP R&D / regulatory leader",
+      "lead_iq": 80,
+      "next_action": "Bay Area relationship outreach around hardware-software V&V, cyber and joint product roadmap",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA K260217",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K260217"
+        },
+        {
+          "label": "Samsung partnership",
+          "url": "https://www.exo.inc/article/exo-r-announces-samsung-medison-strategic-collaboration-and-welcomes-dr-omar"
+        }
+      ]
+    },
+    {
+      "company": "Eko Health",
+      "hq": "Emeryville, CA",
+      "segment": "AI cardiac / pulmonary device + software",
+      "stage": "Growth",
+      "account_iq": 85,
+      "tier": "Silver",
+      "signal": "FDA-cleared AI platform + $41M financing to scale disease detection",
+      "stakeholder": "CTO / VP R&D / regulatory leader",
+      "lead_iq": 79,
+      "next_action": "Local relationship outreach; focus on overflow software V&V, cyber and international regulatory scale",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "Eko company profile",
+          "url": "https://jobs.medtechinnovator.org/companies/eko-2"
+        },
+        {
+          "label": "Eko financing",
+          "url": "https://www.ekohealth.com/blogs/newsroom/eko-health-raises-41-million-to-scale-ai-driven-heart-and-lung-disease-detection"
+        }
+      ]
+    },
+    {
+      "company": "OrthoGrid Systems",
+      "hq": "Midvale, UT",
+      "segment": "Orthopedic imaging AI",
+      "stage": "Growth startup",
+      "account_iq": 84,
+      "tier": "Silver",
+      "signal": "FDA clearance May 2026 for Hip AI 4.0; history of multiple imaging clearances",
+      "stakeholder": "VP R&D / regulatory / software leader",
+      "lead_iq": 77,
+      "next_action": "Approach around next software release, V&V and design-history workload",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA K260077",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260077"
+        }
+      ]
+    },
+    {
+      "company": "HistoSonics",
+      "hq": "Plymouth, MN",
+      "segment": "Therapeutic ultrasound + planning software",
+      "stage": "Series D",
+      "account_iq": 82,
+      "tier": "Silver",
+      "signal": "FDA clearance May 2026 for planning software + active kidney-tumor submission / CE expansion",
+      "stakeholder": "VP R&D / software / regulatory leader",
+      "lead_iq": 76,
+      "next_action": "Qualify overflow software/V&V/cyber needs around new indications and international expansion",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA K252947",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252947"
+        },
+        {
+          "label": "HistoSonics site",
+          "url": "https://histosonics.com/"
+        },
+        {
+          "label": "Series D",
+          "url": "https://histosonics.com/histosonics-secures-102m-series-d-financing/"
+        }
+      ]
+    },
+    {
+      "company": "Overjet",
+      "hq": "Boston, MA",
+      "segment": "Dental AI SaMD",
+      "stage": "Growth / scaled",
+      "account_iq": 80,
+      "tier": "Silver",
+      "signal": "FDA clearance Apr 2026 for Iris Intelligent Imaging System; $130M+ raised",
+      "stakeholder": "CTO / product-regulatory leadership",
+      "lead_iq": 75,
+      "next_action": "Qualify global product pipeline and external regulatory/V&V overflow before investing heavily",
+      "confidence": "High",
+      "evidence": [
+        {
+          "label": "FDA AI list",
+          "url": "https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices"
+        },
+        {
+          "label": "Overjet about",
+          "url": "https://www.overjet.com/about"
+        }
+      ]
+    },
+    {
+      "company": "Iterative Health",
+      "hq": "Cambridge, MA",
+      "segment": "GI AI / clinical research technology",
+      "stage": "Series C",
+      "account_iq": 74,
+      "tier": "Nurture",
+      "signal": "$77M Series C in 2026; current positioning increasingly centers clinical-research acceleration",
+      "stakeholder": "CTO / product leader",
+      "lead_iq": 68,
+      "next_action": "Monitor product direction; engage only if regulated SaMD pipeline becomes a larger part of strategy",
+      "confidence": "Medium",
+      "evidence": [
+        {
+          "label": "Series C",
+          "url": "https://www.planetfirst.partners/news/planet-first-partners-invests-in-iterative-health"
+        }
+      ]
+    }
+  ]
+}
