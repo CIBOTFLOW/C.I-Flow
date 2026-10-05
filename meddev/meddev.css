@@ -80,3 +80,12 @@ html[dir="rtl"] .tier ul,html[dir="rtl"] .qual ul,html[dir="rtl"] .icp-primary u
 .source-links{display:flex;gap:5px;flex-wrap:wrap;margin-top:5px}.source-links a{font-size:10.5px;color:var(--cyan);border-bottom:1px solid rgba(111,215,221,.3)}
 .table-loading{padding:30px;text-align:center;color:#8ea2a8;font-size:13px}
 @media(max-width:760px){.research-toolbar{grid-template-columns:1fr}.lang-toggle{margin-left:0}.nav{flex-wrap:wrap;padding:10px 0}.stage{margin-left:auto}}
+
+/* consolidated account research viewport */
+.table-wrap{max-height:620px;overflow:auto;overscroll-behavior:contain}
+.research-table>.research-row:first-child{position:sticky;top:0;z-index:8;box-shadow:0 1px 0 var(--line)}
+.research-table>.research-row:first-child>div{background:#11242b}
+.table-wrap::-webkit-scrollbar{width:10px;height:10px}
+.table-wrap::-webkit-scrollbar-thumb{background:#28424b;border-radius:10px;border:2px solid #0b181e}
+.table-wrap::-webkit-scrollbar-track{background:#0b181e}
+@media(max-width:620px){.table-wrap{max-height:520px}}
