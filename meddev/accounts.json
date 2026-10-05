@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-05",
-  "candidate_count": 987,
+  "candidate_count": 1018,
   "accounts": [
     {
       "name": "Medical Device Recruiters Inc",
@@ -7897,6 +7897,259 @@
       "apollo_id": "5569e52373696425418caf00",
       "source": "Apollo candidate discovery",
       "review_status": "candidate"
+    },
+    {
+      "name": "Precision Medical Ventures",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Earlitec Diagnostics",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Mighty Oak Medical",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Wave Neuroscience",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "GuideAI Health",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Pathwai",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "SafeBeat Rx",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Alife Health",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Bayesian Health",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Wesper",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "OrthoGrid Systems",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "ArteraAI",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Radformation",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "ViTAA Medical Solutions",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "NeurocareAI",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Restor3d",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "HistoSonics",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Cardiosense",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "InformAI",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "DeepHealth",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Imbio",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Ezra AI",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Bunkerhill Health",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Overjet",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Butterfly Network",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "FDA AI-enabled medical device list",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Senseye",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "MedTech Innovator",
+      "review_status": "candidate"
+    },
+    {
+      "name": "2Morrow",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "MedTech Innovator",
+      "review_status": "candidate"
+    },
+    {
+      "name": "2strands Biosciences",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "MedTech Innovator",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Hyperfine",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "MedTech Innovator / FDA",
+      "review_status": "candidate"
+    },
+    {
+      "name": "Vektor Medical",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "MedTech Innovator",
+      "review_status": "candidate"
+    },
+    {
+      "name": "UltraSight",
+      "domain": "",
+      "website_url": "",
+      "apollo_id": "",
+      "source": "MedTech Innovator",
+      "review_status": "candidate"
     }
+  ],
+  "sources": [
+    "Apollo organization discovery",
+    "FDA AI-enabled medical device list",
+    "MedTech Innovator"
   ]
 }
