@@ -102,6 +102,7 @@
      btn.classList.add('active');filter=btn.dataset.accountFilter;render();
    }));
    search?.addEventListener('input',render);
+   window.renderMeddevResearch=render;
  }
 
  // EN / HE toggle. Company names, regulatory acronyms and evidence records remain in their source language.
@@ -176,7 +177,7 @@
    translateNode(document.body,lang);
    document.querySelectorAll('.lang-toggle button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
    const searchInput=document.getElementById('accountSearch');if(searchInput)searchInput.placeholder=lang==='he'?'חיפוש חברה, סגמנט, סיגנל או בעל עניין':'Search company, segment, signal or stakeholder';
-   if(typeof render==='function' && document.getElementById('researchTable')) { try{render();}catch(e){} }
+   if(window.renderMeddevResearch) { try{window.renderMeddevResearch();}catch(e){} }
  }
  const nav=document.querySelector('.nav');
  if(nav){
