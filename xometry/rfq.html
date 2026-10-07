@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RFQ Routing Engine | Xometry</title><link rel="stylesheet" href="/xometry/xometry.css"></head><body>
+<header class="topbar"><div class="shell nav"><a class="brand" href="/xometry/"><b>XOMETRY · PARTNER RFQ MANAGER</b><span>ROUTING COMPLEX RFQs TO THE RIGHT CAPACITY, FASTER</span></a><div class="stage"><span>03 / 07</span><b>RFQ ROUTING</b></div></div></header>
+<main>
+<section class="page-hero shell"><span class="eyebrow">SPEED WITHOUT SHOTGUN ROUTING</span><h1>Send the RFQ to the smallest set of partners most likely to win it.</h1><p>Fast quoting matters. Flooding the network does not. The routing decision should balance technical fit, certification, historical confidence, capacity and price competitiveness.</p></section>
+
+<section class="section shell"><div class="section-head"><div><span class="eyebrow">INTERACTIVE PARTNER MATCH</span><h2>Would I route this RFQ?</h2></div><p>A simple decision model for the human review step. The exact weights should be calibrated to Xometry's real network data.</p></div>
+<div class="match-score">
+<div class="match-inputs">
+<div class="match-input"><div><b>Process + machine fit</b><span>Max 30</span></div><div class="match-options"><button class="match-choice" data-match-group="cap" data-match-score="30">Exact sweet spot +30</button><button class="match-choice" data-match-group="cap" data-match-score="15">Can make it +15</button><button class="match-choice" data-match-group="cap" data-match-score="0">Weak fit +0</button></div></div>
+<div class="match-input"><div><b>Certification / quality fit</b><span>Max 20</span></div><div class="match-options"><button class="match-choice" data-match-group="cert" data-match-score="20">All required +20</button><button class="match-choice" data-match-group="cert" data-match-score="0">Gap +0</button></div></div>
+<div class="match-input"><div><b>Historical confidence</b><span>Max 20</span></div><div class="match-options"><button class="match-choice" data-match-group="history" data-match-score="20">Proven similar work +20</button><button class="match-choice" data-match-group="history" data-match-score="10">Limited history +10</button><button class="match-choice" data-match-group="history" data-match-score="0">Unknown +0</button></div></div>
+<div class="match-input"><div><b>Open capacity / lead time</b><span>Max 20</span></div><div class="match-options"><button class="match-choice" data-match-group="capacity" data-match-score="20">Capacity open +20</button><button class="match-choice" data-match-group="capacity" data-match-score="10">Confirm first +10</button><button class="match-choice" data-match-group="capacity" data-match-score="0">Loaded +0</button></div></div>
+<div class="match-input"><div><b>Cost confidence</b><span>Max 10</span></div><div class="match-options"><button class="match-choice" data-match-group="cost" data-match-score="10">Competitive history +10</button><button class="match-choice" data-match-group="cost" data-match-score="5">Unknown +5</button><button class="match-choice" data-match-group="cost" data-match-score="0">Usually high +0</button></div></div>
+</div>
+<div class="match-result" data-match-output><span class="eyebrow">ROUTING SCORE</span><strong>0 / 100</strong><h3>Do not route yet</h3><p>Missing capability, certification, confidence or capacity. Find a better-fit partner or resolve the gap before sending the RFQ.</p><small>Proposed decision aid, not a representation of Xometry's internal algorithm.</small></div>
+</div></section>
+
+<section class="section dark"><div class="shell"><div class="section-head"><div><span class="eyebrow">RULE OF 3-5</span><h2>Curate the bid pool.</h2></div><p>The goal is enough competition to price the job correctly without exhausting estimator bandwidth or destroying each partner's probability of winning.</p></div>
+<div class="ccc">
+<div><b>C</b><strong>Cost</strong><p>Does the partner quote support a competitive customer price and Xometry's required gross-margin spread?</p></div>
+<div><b>C</b><strong>Confidence</strong><p>Has the shop actually delivered this material, tolerance, process and quality level successfully before?</p></div>
+<div><b>C</b><strong>Capacity</strong><p>Can the shop meet the requested lead time without a risk premium or schedule fragility?</p></div>
+</div>
+</div></section>
+
+<section class="section shell"><div class="section-head"><div><span class="eyebrow">MORNING RFQ TRIAGE</span><h2>Move ambiguity out of the queue quickly.</h2></div><p>A strong first pass should identify what can be routed now and what needs technical clarification.</p></div>
+<div class="flow">
+<div><b>1</b><strong>Read package</strong><p>CAD · print · BOM · SOW</p></div>
+<div><b>2</b><strong>Flag risk</strong><p>GD&T · finish · cert · inspection</p></div>
+<div><b>3</b><strong>Pick process</strong><p>CNC · AM · mold · cast · sheet</p></div>
+<div><b>4</b><strong>Match shops</strong><p>capability + history + capacity</p></div>
+<div><b>5</b><strong>Call estimators</strong><p>12-24 hour target by complexity</p></div>
+<div><b>6</b><strong>Escalate gaps</strong><p>Sales · sourcing · quality</p></div>
+</div>
+<div class="guardrail"><b>Current public context:</b> Xometry's September 2026 Workcenter update says its rebuilt Job Board reduced job-review time by more than 60% and increased partner job acceptance by about 15% in early testing. The human RFQ role should build on that speed, not duplicate what the product already automates.</div>
+<a class="next-step" href="/xometry/economics"><span>NEXT</span><b>Quote Economics + DFM</b><em>Improve partner bids before they become customer prices.</em></a>
+</section>
+</main><footer class="shell footer"><span>Independent Xometry Partner RFQ Manager work sample · Connor Spiegelman</span><span><a href="https://ciflow.io">ciflow.io</a></span></footer><script src="/xometry/xometry.js"></script></body></html>
