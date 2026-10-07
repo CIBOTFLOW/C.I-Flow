@@ -46,6 +46,17 @@
           "value": "meddev.ciflow.io"
         }
       ]
+    },
+    {
+      "source": "/",
+      "destination": "/xometry/index.html",
+      "permanent": false,
+      "has": [
+        {
+          "type": "host",
+          "value": "xometry.ciflow.io"
+        }
+      ]
     }
   ]
 }
