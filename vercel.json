@@ -57,6 +57,17 @@
           "value": "xometry.ciflow.io"
         }
       ]
+    },
+    {
+      "source": "/",
+      "destination": "/blueorigin/index.html",
+      "permanent": false,
+      "has": [
+        {
+          "type": "host",
+          "value": "blueorigin.ciflow.io"
+        }
+      ]
     }
   ]
 }
