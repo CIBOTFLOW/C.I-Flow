@@ -68,38 +68,4 @@
    qa('[data-target-filter]').forEach(b=>b.addEventListener('click',()=>{qa('[data-target-filter]').forEach(x=>x.classList.remove('active'));b.classList.add('active');filter=b.dataset.targetFilter;renderTargets();}));
  }
 
- // CRM CSV reactivation importer
- const crmFile=q('#crmFile'),crmTable=q('#crmTable'),clearCrm=q('#clearCrm');
- function parseCSV(text){
-   const rows=[];let row=[],field='',quote=false;
-   for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];
-     if(c==='"'){if(quote&&n==='"'){field+='"';i++;}else quote=!quote;}
-     else if(c===','&&!quote){row.push(field);field='';}
-     else if((c==='\n'||c==='\r')&&!quote){if(c==='\r'&&n==='\n')i++;row.push(field);field='';if(row.some(x=>x.trim()))rows.push(row);row=[];}
-     else field+=c;
-   } row.push(field);if(row.some(x=>x.trim()))rows.push(row);return rows;
- }
- function findCol(headers,names){const h=headers.map(x=>x.toLowerCase().trim());for(const n of names){const i=h.findIndex(x=>x.includes(n));if(i>=0)return i;}return -1;}
- function bucket(stage,status,reason,last){
-   const s=(stage+' '+status+' '+reason).toLowerCase();
-   if(/not now|timing|contract|renewal|budget|no decision|stalled|nurture|follow up/.test(s))return ['Reactivate now','hot','Re-score Account IQ, confirm current board / incumbent timing, and reopen with the original context.'];
-   if(/lost|competitor|price|pricing/.test(s))return ['Research','research','Validate whether the original loss condition changed before spending field time.'];
-   if(/unqualified|bad fit|too small|too large/.test(s))return ['Nurture','nurture','Re-check fit only if Assembly ICP, product scope or community conditions have materially changed.'];
-   return ['Research','research','Review original notes, map the board, add a current trigger and assign a dated next action.'];
- }
- function renderCRM(records){
-   if(!crmTable)return;
-   crmTable.querySelectorAll('.pipeline-row:not(.head),.empty-row').forEach(x=>x.remove());
-   let hot=0,nur=0,res=0;
-   if(!records.length){crmTable.insertAdjacentHTML('beforeend','<div class="empty-row">Import a CRM CSV to populate the reactivation queue.</div>');}
-   else crmTable.insertAdjacentHTML('beforeend',records.map(r=>{if(r.kind==='hot')hot++;else if(r.kind==='nurture')nur++;else res++;return '<div class="pipeline-row"><div><b>'+r.account+'</b></div><div>'+r.stage+'</div><div>'+r.reason+'</div><div>'+r.last+'</div><div><span class="bucket '+r.kind+'">'+r.bucket+'</span></div><div>'+r.next+'</div></div>';}).join(''));
-   const set=(id,v)=>{const el=q(id);if(el)el.textContent=v;};set('#crmImported',records.length);set('#crmHot',hot);set('#crmNurture',nur);set('#crmResearch',res);
- }
- crmFile?.addEventListener('change',async e=>{
-   const file=e.target.files?.[0];if(!file)return;const rows=parseCSV(await file.text());if(rows.length<2)return;
-   const h=rows[0],ia=findCol(h,['account','company','community','hoa']),ic=findCol(h,['contact','name']),is=findCol(h,['stage']),ist=findCol(h,['status']),ir=findCol(h,['lost reason','reason']),il=findCol(h,['last activity','last touch','activity']);
-   const records=rows.slice(1).map(row=>{const account=(ia>=0?row[ia]:'')||(ic>=0?row[ic]:'')||'Unnamed record';const stage=is>=0?row[is]:'';const status=ist>=0?row[ist]:'';const reason=ir>=0?row[ir]:status;const last=il>=0?row[il]:'';const b=bucket(stage,status,reason,last);return {account,stage:stage||status||'Unknown',reason:reason||'Review notes',last:last||'Unknown',bucket:b[0],kind:b[1],next:b[2]};});
-   renderCRM(records);
- });
- clearCrm?.addEventListener('click',()=>{if(crmFile)crmFile.value='';renderCRM([]);});
 })();
