@@ -72,6 +72,7 @@
         (filter==='leo'&&(a.program.includes('LEO')||a.program.includes('Orbital Reef')))||
         (filter==='lunar'&&(a.program.includes('Blue Moon')||a.program.includes('Blue Alchemist')||a.program.includes('Exploration')))||
         (filter==='tier1'&&a.priority_band==='Tier 1')||
+        (filter==='verified'&&a.known_people&&a.known_people.length)||
         (filter==='pharma'&&(c.includes('pharma')||c.includes('biotech')))||
         (filter==='defense'&&(c.includes('defense')||c.includes('sda')))||
         (filter==='data'&&(c.includes('cloud')||c.includes('data center')||c.includes('connectivity')||c.includes('telecom')));
