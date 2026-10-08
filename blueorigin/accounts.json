@@ -1,0 +1,795 @@
+{
+  "generated_at": "2026-10-07",
+  "method": "Proposed Partner IQ model based on interview notes plus current public Blue Origin relationships and programs",
+  "weights": {
+    "strategic_fit": 25,
+    "application_value": 20,
+    "economic_contribution": 20,
+    "risk_sharing": 15,
+    "execution_readiness": 10,
+    "intent_timing": 10
+  },
+  "count": 39,
+  "accounts": [
+    {
+      "name": "Amazon Leo / Project Kuiper",
+      "status": "Public relationship",
+      "category": "Launch / connectivity",
+      "program": "New Glenn",
+      "deal": "Multi-launch / capacity",
+      "score": 98,
+      "risk": "Low",
+      "f": {
+        "strategic": 25,
+        "application": 20,
+        "economics": 20,
+        "riskShare": 14,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Anchor constellation demand with repeat launch capacity and long-range manifest planning.",
+      "signal": "Blue Origin lists Amazon Leo among New Glenn customers.",
+      "source": "https://www.blueorigin.com/new-glenn"
+    },
+    {
+      "name": "NASA",
+      "status": "Public relationship",
+      "category": "Civil / exploration",
+      "program": "Blue Moon + Blue Ring + New Glenn",
+      "deal": "Strategic program / commercial services",
+      "score": 98,
+      "risk": "Low",
+      "f": {
+        "strategic": 25,
+        "application": 20,
+        "economics": 19,
+        "riskShare": 14,
+        "readiness": 10,
+        "timing": 10
+      },
+      "thesis": "Expand from individual programs into reusable infrastructure relationships across Moon, Mars, launch and LEO.",
+      "signal": "Blue Origin has active NASA relationships across New Glenn, Blue Moon, LEO destinations, Stennis testing and Mars telecom.",
+      "source": "https://www.blueorigin.com/news/blue-origin-selected-by-nasa-to-help-build-mars-telecommunications-network"
+    },
+    {
+      "name": "United Launch Alliance",
+      "status": "Public relationship",
+      "category": "Propulsion",
+      "program": "BE-4",
+      "deal": "Long-term supply / co-development",
+      "score": 96,
+      "risk": "Low",
+      "f": {
+        "strategic": 24,
+        "application": 20,
+        "economics": 20,
+        "riskShare": 13,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Deepen merchant propulsion economics and production alignment around Vulcan cadence.",
+      "signal": "ULA and Blue Origin jointly funded BE-4 development and maintain a production relationship.",
+      "source": "https://www.blueorigin.com/news/ula-and-blue-origin-announce-partnership-to-develop-new-american-rocket-engine"
+    },
+    {
+      "name": "Air Liquide",
+      "status": "Proposed thesis",
+      "category": "Industrial gas / energy",
+      "program": "Blue Ring + lunar infrastructure",
+      "deal": "JV / SPV",
+      "score": 96,
+      "risk": "Medium",
+      "f": {
+        "strategic": 25,
+        "application": 20,
+        "economics": 18,
+        "riskShare": 15,
+        "readiness": 9,
+        "timing": 9
+      },
+      "thesis": "Orbital cryogenic refueling JV combining Blue Origin mobility and flight infrastructure with industrial gas processing expertise.",
+      "signal": "Interview notes identify industrial gas companies as the strongest cryogenic-refueling JV category.",
+      "source": ""
+    },
+    {
+      "name": "Linde",
+      "status": "Proposed thesis",
+      "category": "Industrial gas / energy",
+      "program": "Blue Ring + lunar infrastructure",
+      "deal": "JV / SPV",
+      "score": 95,
+      "risk": "Medium",
+      "f": {
+        "strategic": 25,
+        "application": 20,
+        "economics": 18,
+        "riskShare": 15,
+        "readiness": 9,
+        "timing": 8
+      },
+      "thesis": "Co-develop orbital LH2/LOX processing and storage infrastructure with per-kg service economics.",
+      "signal": "Interview notes identify Linde as a top orbital-propellant infrastructure target.",
+      "source": ""
+    },
+    {
+      "name": "Sierra Space",
+      "status": "Public relationship",
+      "category": "LEO destinations",
+      "program": "Orbital Reef",
+      "deal": "Co-development",
+      "score": 94,
+      "risk": "Medium",
+      "f": {
+        "strategic": 24,
+        "application": 20,
+        "economics": 17,
+        "riskShare": 14,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Continue shared destination architecture around transportation, habitation and commercial LEO services.",
+      "signal": "Blue Origin identifies Sierra Space as a principal Orbital Reef partner.",
+      "source": "https://www.blueorigin.com/destinations"
+    },
+    {
+      "name": "Lockheed Martin",
+      "status": "Public relationship",
+      "category": "Lunar / defense",
+      "program": "Blue Moon",
+      "deal": "Co-development",
+      "score": 94,
+      "risk": "Low",
+      "f": {
+        "strategic": 24,
+        "application": 20,
+        "economics": 18,
+        "riskShare": 13,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Expand National Team collaboration and evaluate Blue Ring / defense integrations where strategic.",
+      "signal": "Lockheed Martin is part of Blue Origin's current Sustaining Lunar Development National Team.",
+      "source": "https://www.blueorigin.com/blue-moon/sld-national-team"
+    },
+    {
+      "name": "Boeing",
+      "status": "Public relationship",
+      "category": "Lunar + LEO",
+      "program": "Blue Moon + Orbital Reef",
+      "deal": "Co-development",
+      "score": 93,
+      "risk": "Medium",
+      "f": {
+        "strategic": 24,
+        "application": 20,
+        "economics": 18,
+        "riskShare": 13,
+        "readiness": 9,
+        "timing": 9
+      },
+      "thesis": "Use existing lunar and LEO collaboration as a base for deeper program-level commercial structures.",
+      "signal": "Boeing appears on both the Blue Moon National Team and Orbital Reef team.",
+      "source": "https://www.blueorigin.com/destinations"
+    },
+    {
+      "name": "Eli Lilly",
+      "status": "Proposed thesis",
+      "category": "Pharma / microgravity",
+      "program": "LEO Destinations",
+      "deal": "JV / SPV",
+      "score": 93,
+      "risk": "Medium",
+      "f": {
+        "strategic": 24,
+        "application": 19,
+        "economics": 19,
+        "riskShare": 14,
+        "readiness": 9,
+        "timing": 8
+      },
+      "thesis": "Create an automated microgravity research and protein-crystallization platform with recurring rack economics.",
+      "signal": "Interview notes identify Lilly as a high-value microgravity biolab partner category.",
+      "source": ""
+    },
+    {
+      "name": "Merck",
+      "status": "Proposed thesis",
+      "category": "Pharma / microgravity",
+      "program": "LEO Destinations",
+      "deal": "JV / SPV",
+      "score": 93,
+      "risk": "Medium",
+      "f": {
+        "strategic": 24,
+        "application": 19,
+        "economics": 19,
+        "riskShare": 14,
+        "readiness": 9,
+        "timing": 8
+      },
+      "thesis": "Structure a microgravity drug-formulation SPV with shared research infrastructure and recurring access.",
+      "signal": "Interview notes identify Merck as a top pharmaceutical SPV target.",
+      "source": ""
+    },
+    {
+      "name": "AST SpaceMobile",
+      "status": "Public relationship",
+      "category": "Launch / telecom",
+      "program": "New Glenn",
+      "deal": "Multi-launch agreement",
+      "score": 92,
+      "risk": "Low",
+      "f": {
+        "strategic": 23,
+        "application": 20,
+        "economics": 18,
+        "riskShare": 12,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Convert current launch relationship into longer-term constellation replenishment and adjacent connectivity collaboration.",
+      "signal": "AST SpaceMobile has a multi-launch agreement with New Glenn and flew on NG-3 in 2026.",
+      "source": "https://www.blueorigin.com/news/new-glenn-3-to-launch-ast-spacemobile-bluebird-satellite"
+    },
+    {
+      "name": "Caterpillar",
+      "status": "Proposed thesis",
+      "category": "Lunar industrial",
+      "program": "Exploration Systems + Blue Alchemist",
+      "deal": "JV / SPV",
+      "score": 92,
+      "risk": "Medium",
+      "f": {
+        "strategic": 24,
+        "application": 20,
+        "economics": 18,
+        "riskShare": 14,
+        "readiness": 8,
+        "timing": 8
+      },
+      "thesis": "Co-develop lunar excavation, regolith handling and power infrastructure around an industrial-services model.",
+      "signal": "Interview notes position Caterpillar as the highest-value lunar industrial SPV thesis.",
+      "source": ""
+    },
+    {
+      "name": "Redwire Space",
+      "status": "Public relationship",
+      "category": "LEO research / manufacturing",
+      "program": "Orbital Reef",
+      "deal": "Co-development",
+      "score": 91,
+      "risk": "Low",
+      "f": {
+        "strategic": 23,
+        "application": 19,
+        "economics": 17,
+        "riskShare": 13,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Expand research-payload and in-space manufacturing capabilities inside a commercial destination ecosystem.",
+      "signal": "Blue Origin lists Redwire as an Orbital Reef team member focused on microgravity R&D and payload operations.",
+      "source": "https://www.blueorigin.com/destinations"
+    },
+    {
+      "name": "U.S. Space Force / DIU",
+      "status": "Public relationship",
+      "category": "Defense / space mobility",
+      "program": "Blue Ring + New Glenn",
+      "deal": "Public-private mission partnership",
+      "score": 91,
+      "risk": "Low",
+      "f": {
+        "strategic": 25,
+        "application": 20,
+        "economics": 17,
+        "riskShare": 11,
+        "readiness": 9,
+        "timing": 9
+      },
+      "thesis": "Scale Blue Ring mobility, SDA and infrastructure missions while New Glenn expands national-security launch capacity.",
+      "signal": "Blue Ring's DarkSky-1 work is DIU-sponsored and Blue Origin is pursuing NSSL certification for New Glenn.",
+      "source": "https://www.blueorigin.com/news/blue-origin-blue-ring-to-demonstrate-operation-capabilities-on-darksky-1-mission"
+    },
+    {
+      "name": "SES",
+      "status": "Proposed thesis",
+      "category": "Satellite / telecom",
+      "program": "New Glenn + TeraWave",
+      "deal": "Capacity reservation / strategic commercial",
+      "score": 91,
+      "risk": "Medium",
+      "f": {
+        "strategic": 23,
+        "application": 20,
+        "economics": 19,
+        "riskShare": 11,
+        "readiness": 9,
+        "timing": 9
+      },
+      "thesis": "Multi-launch and direct-to-orbit capacity plus potential network-resilience alignment with TeraWave.",
+      "signal": "Interview notes rank SES as a high-fit commercial satellite operator.",
+      "source": ""
+    },
+    {
+      "name": "ESA",
+      "status": "Proposed thesis",
+      "category": "International civil",
+      "program": "Blue Moon + LEO Destinations",
+      "deal": "Strategic commercial / bilateral",
+      "score": 90,
+      "risk": "Medium",
+      "f": {
+        "strategic": 23,
+        "application": 19,
+        "economics": 16,
+        "riskShare": 13,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Blue Moon cargo, lunar access and LEO destination participation for European missions and industry.",
+      "signal": "Interview notes identify ESA as a priority international-agency account.",
+      "source": ""
+    },
+    {
+      "name": "JAXA",
+      "status": "Proposed thesis",
+      "category": "International civil",
+      "program": "Blue Moon + Blue Alchemist",
+      "deal": "Strategic commercial / bilateral",
+      "score": 90,
+      "risk": "Medium",
+      "f": {
+        "strategic": 23,
+        "application": 19,
+        "economics": 16,
+        "riskShare": 13,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Lunar cargo, surface power and exploration infrastructure around sustained Artemis participation.",
+      "signal": "Interview notes identify JAXA as a priority lunar cargo and power account.",
+      "source": ""
+    },
+    {
+      "name": "Scout Space",
+      "status": "Public relationship",
+      "category": "Defense / SDA",
+      "program": "Blue Ring",
+      "deal": "Payload integration",
+      "score": 90,
+      "risk": "Low",
+      "f": {
+        "strategic": 23,
+        "application": 20,
+        "economics": 16,
+        "riskShare": 12,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Turn first-mission sensor integration into a repeatable hosted-payload and SDA services relationship.",
+      "signal": "Scout Space's Owl sensor is integrated on Blue Ring's first mission.",
+      "source": "https://www.blueorigin.com/news/first-blue-ring-mission-to-demonstrate-space-domain-awareness-with-scout-space-sensor"
+    },
+    {
+      "name": "Telesat",
+      "status": "Proposed thesis",
+      "category": "Satellite / telecom",
+      "program": "New Glenn + TeraWave",
+      "deal": "Capacity reservation / warrant option",
+      "score": 90,
+      "risk": "Medium",
+      "f": {
+        "strategic": 23,
+        "application": 20,
+        "economics": 18,
+        "riskShare": 11,
+        "readiness": 9,
+        "timing": 9
+      },
+      "thesis": "Use multi-year launch capacity and milestone-linked incentives to diversify constellation launch supply.",
+      "signal": "Interview notes identify Telesat Lightspeed as a priority capacity-reservation thesis.",
+      "source": ""
+    },
+    {
+      "name": "Draper",
+      "status": "Public relationship",
+      "category": "Lunar / guidance",
+      "program": "Blue Moon",
+      "deal": "Co-development",
+      "score": 89,
+      "risk": "Low",
+      "f": {
+        "strategic": 22,
+        "application": 19,
+        "economics": 16,
+        "riskShare": 13,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Deepen guidance, navigation and mission-system collaboration across sustained lunar missions.",
+      "signal": "Draper is part of Blue Origin's Sustaining Lunar Development National Team.",
+      "source": "https://www.blueorigin.com/blue-moon/sld-national-team"
+    },
+    {
+      "name": "Optimum Technologies",
+      "status": "Public relationship",
+      "category": "Defense / SDA",
+      "program": "Blue Ring",
+      "deal": "Payload integration",
+      "score": 89,
+      "risk": "Low",
+      "f": {
+        "strategic": 22,
+        "application": 20,
+        "economics": 16,
+        "riskShare": 12,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Expand Caracal integration into a commercial GEO tracking and characterization service model.",
+      "signal": "OpTech's Caracal sensor is scheduled on Blue Ring's first mission.",
+      "source": "https://www.blueorigin.com/news/blue-ring-optimum-technologies-sensor"
+    },
+    {
+      "name": "John Deere",
+      "status": "Proposed thesis",
+      "category": "Lunar industrial",
+      "program": "Exploration Systems + Blue Alchemist",
+      "deal": "Co-development / JV",
+      "score": 89,
+      "risk": "Medium",
+      "f": {
+        "strategic": 23,
+        "application": 19,
+        "economics": 17,
+        "riskShare": 14,
+        "readiness": 8,
+        "timing": 8
+      },
+      "thesis": "Adapt autonomous heavy-equipment, excavation and operations expertise to lunar construction and resource handling.",
+      "signal": "Interview notes identify heavy-equipment partners including John Deere for lunar surface infrastructure.",
+      "source": ""
+    },
+    {
+      "name": "Eutelsat / OneWeb",
+      "status": "Proposed thesis",
+      "category": "Satellite / telecom",
+      "program": "New Glenn + TeraWave",
+      "deal": "Capacity reservation / commercial",
+      "score": 89,
+      "risk": "Medium",
+      "f": {
+        "strategic": 22,
+        "application": 20,
+        "economics": 18,
+        "riskShare": 11,
+        "readiness": 9,
+        "timing": 9
+      },
+      "thesis": "Replenishment launch capacity and strategic network-resilience opportunities.",
+      "signal": "Interview notes identify Eutelsat OneWeb as a commercial constellation target.",
+      "source": ""
+    },
+    {
+      "name": "Amazon Web Services",
+      "status": "Public relationship",
+      "category": "Cloud / LEO infrastructure",
+      "program": "Orbital Reef + Blue Ring",
+      "deal": "Platform integration",
+      "score": 88,
+      "risk": "Low",
+      "f": {
+        "strategic": 22,
+        "application": 19,
+        "economics": 17,
+        "riskShare": 12,
+        "readiness": 10,
+        "timing": 8
+      },
+      "thesis": "Extend cloud and edge-compute integration across LEO destination and Blue Ring infrastructure services.",
+      "signal": "AWS is listed as an Orbital Reef team member.",
+      "source": "https://www.blueorigin.com/destinations"
+    },
+    {
+      "name": "Astrobotic",
+      "status": "Public relationship",
+      "category": "Lunar",
+      "program": "Blue Moon",
+      "deal": "Co-development",
+      "score": 88,
+      "risk": "Low",
+      "f": {
+        "strategic": 22,
+        "application": 19,
+        "economics": 16,
+        "riskShare": 12,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Expand sustained lunar-delivery and surface-system integration opportunities.",
+      "signal": "Astrobotic is part of Blue Origin's Sustaining Lunar Development National Team.",
+      "source": "https://www.blueorigin.com/blue-moon/sld-national-team"
+    },
+    {
+      "name": "Microsoft",
+      "status": "Expanded thesis",
+      "category": "Cloud / connectivity",
+      "program": "TeraWave + Blue Ring",
+      "deal": "Strategic commercial / co-development",
+      "score": 88,
+      "risk": "Medium",
+      "f": {
+        "strategic": 22,
+        "application": 19,
+        "economics": 18,
+        "riskShare": 12,
+        "readiness": 9,
+        "timing": 8
+      },
+      "thesis": "Enterprise connectivity and edge-cloud integration for critical operations using TeraWave and Blue Ring infrastructure.",
+      "signal": "TeraWave targets enterprise, data center and government users; Microsoft is an illustrative partner thesis.",
+      "source": "https://www.blueorigin.com/news/blue-origin-introduces-terawave-space-based-network-for-global-connectivity"
+    },
+    {
+      "name": "Equinix",
+      "status": "Expanded thesis",
+      "category": "Data center / connectivity",
+      "program": "TeraWave",
+      "deal": "Strategic commercial",
+      "score": 88,
+      "risk": "Medium",
+      "f": {
+        "strategic": 22,
+        "application": 20,
+        "economics": 18,
+        "riskShare": 11,
+        "readiness": 9,
+        "timing": 8
+      },
+      "thesis": "Integrate TeraWave as route-diverse critical connectivity into global data-center interconnection.",
+      "signal": "TeraWave is purpose-built for enterprise and data-center users; Equinix is an illustrative target thesis.",
+      "source": "https://www.blueorigin.com/news/blue-origin-introduces-terawave-space-based-network-for-global-connectivity"
+    },
+    {
+      "name": "UAE Space Agency / MBRSC",
+      "status": "Proposed thesis",
+      "category": "International civil",
+      "program": "LEO Destinations + New Glenn",
+      "deal": "Strategic commercial / co-investment",
+      "score": 87,
+      "risk": "Medium",
+      "f": {
+        "strategic": 22,
+        "application": 18,
+        "economics": 16,
+        "riskShare": 13,
+        "readiness": 9,
+        "timing": 9
+      },
+      "thesis": "Sovereign astronaut access, research modules and launch services with potential co-investment structures.",
+      "signal": "Interview notes identify UAE / MBRSC as a sovereign-space partnership target.",
+      "source": ""
+    },
+    {
+      "name": "Viasat",
+      "status": "Proposed thesis",
+      "category": "Satellite / telecom",
+      "program": "New Glenn + TeraWave",
+      "deal": "Strategic commercial",
+      "score": 87,
+      "risk": "Medium",
+      "f": {
+        "strategic": 22,
+        "application": 19,
+        "economics": 17,
+        "riskShare": 11,
+        "readiness": 9,
+        "timing": 9
+      },
+      "thesis": "Heavy launch plus resilient connectivity alignment for commercial and government communications.",
+      "signal": "Interview notes identify Viasat among high-fit commercial satellite operators.",
+      "source": ""
+    },
+    {
+      "name": "Google Cloud",
+      "status": "Expanded thesis",
+      "category": "Cloud / connectivity",
+      "program": "TeraWave + Blue Ring",
+      "deal": "Strategic commercial / co-development",
+      "score": 87,
+      "risk": "Medium",
+      "f": {
+        "strategic": 21,
+        "application": 19,
+        "economics": 18,
+        "riskShare": 12,
+        "readiness": 9,
+        "timing": 8
+      },
+      "thesis": "Cloud, AI and edge-processing integration into enterprise connectivity and in-space computing services.",
+      "signal": "TeraWave and Blue Ring both create cloud / edge integration surfaces; Google Cloud is an illustrative target thesis.",
+      "source": "https://www.blueorigin.com/blue-ring"
+    },
+    {
+      "name": "Pfizer",
+      "status": "Expanded thesis",
+      "category": "Pharma / microgravity",
+      "program": "LEO Destinations",
+      "deal": "Research partnership / SPV",
+      "score": 87,
+      "risk": "Medium",
+      "f": {
+        "strategic": 22,
+        "application": 18,
+        "economics": 18,
+        "riskShare": 13,
+        "readiness": 8,
+        "timing": 8
+      },
+      "thesis": "Microgravity formulation and crystallization research with recurring lab-access economics.",
+      "signal": "Expanded from the pharmaceutical partner category in the interview notes.",
+      "source": ""
+    },
+    {
+      "name": "Roche",
+      "status": "Expanded thesis",
+      "category": "Pharma / microgravity",
+      "program": "LEO Destinations",
+      "deal": "Research partnership / SPV",
+      "score": 86,
+      "risk": "Medium",
+      "f": {
+        "strategic": 21,
+        "application": 18,
+        "economics": 18,
+        "riskShare": 13,
+        "readiness": 8,
+        "timing": 8
+      },
+      "thesis": "Commercial microgravity research infrastructure for biologics, formulation and materials science.",
+      "signal": "Expanded from the pharmaceutical partner category in the interview notes.",
+      "source": ""
+    },
+    {
+      "name": "Amazon Supply Chain",
+      "status": "Public relationship",
+      "category": "LEO logistics",
+      "program": "Orbital Reef",
+      "deal": "Platform / operations",
+      "score": 86,
+      "risk": "Low",
+      "f": {
+        "strategic": 21,
+        "application": 19,
+        "economics": 16,
+        "riskShare": 12,
+        "readiness": 10,
+        "timing": 8
+      },
+      "thesis": "Use terrestrial logistics expertise to design scalable destination resupply and inventory operations.",
+      "signal": "Amazon Supply Chain is listed as an Orbital Reef team member.",
+      "source": "https://www.blueorigin.com/destinations"
+    },
+    {
+      "name": "Digital Realty",
+      "status": "Expanded thesis",
+      "category": "Data center / connectivity",
+      "program": "TeraWave",
+      "deal": "Strategic commercial",
+      "score": 86,
+      "risk": "Medium",
+      "f": {
+        "strategic": 21,
+        "application": 19,
+        "economics": 18,
+        "riskShare": 11,
+        "readiness": 9,
+        "timing": 8
+      },
+      "thesis": "Global data-center connectivity and critical-network resilience using TeraWave route diversity.",
+      "signal": "TeraWave explicitly targets data-center and critical operations users; Digital Realty is an illustrative thesis.",
+      "source": "https://www.blueorigin.com/news/blue-origin-introduces-terawave-space-based-network-for-global-connectivity"
+    },
+    {
+      "name": "Genesis Engineering Solutions",
+      "status": "Public relationship",
+      "category": "LEO systems",
+      "program": "Orbital Reef",
+      "deal": "Co-development",
+      "score": 85,
+      "risk": "Low",
+      "f": {
+        "strategic": 21,
+        "application": 18,
+        "economics": 15,
+        "riskShare": 12,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Continue specialized crew and destination-system development within the LEO ecosystem.",
+      "signal": "Genesis Engineering Solutions is listed as an Orbital Reef team member.",
+      "source": "https://www.blueorigin.com/destinations"
+    },
+    {
+      "name": "DLR",
+      "status": "Proposed thesis",
+      "category": "International civil / research",
+      "program": "LEO Destinations + New Shepard",
+      "deal": "Research / strategic commercial",
+      "score": 85,
+      "risk": "Medium",
+      "f": {
+        "strategic": 21,
+        "application": 18,
+        "economics": 14,
+        "riskShare": 13,
+        "readiness": 10,
+        "timing": 9
+      },
+      "thesis": "Expand microgravity research and destination participation with German institutional and industrial ecosystems.",
+      "signal": "Interview notes identify DLR as a priority international-agency account; Blue Origin has flown DLR-funded New Shepard payloads.",
+      "source": "https://www.blueorigin.com/news/payload-customers-on-new-shepard-s-8th-test-flight"
+    },
+    {
+      "name": "Saudi Space Agency",
+      "status": "Proposed thesis",
+      "category": "International civil",
+      "program": "LEO Destinations + New Glenn",
+      "deal": "Strategic commercial / co-investment",
+      "score": 84,
+      "risk": "Medium",
+      "f": {
+        "strategic": 21,
+        "application": 18,
+        "economics": 15,
+        "riskShare": 13,
+        "readiness": 8,
+        "timing": 9
+      },
+      "thesis": "Sovereign astronaut, research and launch access structured around long-term national capability building.",
+      "signal": "Interview notes identify Saudi Space Agency as a sovereign-space partnership target.",
+      "source": ""
+    },
+    {
+      "name": "NASA Stennis Space Center",
+      "status": "Public relationship",
+      "category": "Infrastructure / testing",
+      "program": "New Glenn",
+      "deal": "Infrastructure agreement",
+      "score": 84,
+      "risk": "Low",
+      "f": {
+        "strategic": 21,
+        "application": 18,
+        "economics": 14,
+        "riskShare": 11,
+        "readiness": 10,
+        "timing": 10
+      },
+      "thesis": "Use public infrastructure partnerships to deconflict launch operations and accelerate high-cadence test throughput.",
+      "signal": "Blue Origin and NASA signed a 2026 agreement to use Stennis' B-Test Complex for New Glenn upper-stage testing.",
+      "source": "https://www.blueorigin.com/news/blue-origin-nasa-partner-to-test-new-glenn-at-stennis-space-center"
+    },
+    {
+      "name": "Arizona State University",
+      "status": "Public relationship",
+      "category": "Research ecosystem",
+      "program": "Orbital Reef",
+      "deal": "Research consortium",
+      "score": 82,
+      "risk": "Low",
+      "f": {
+        "strategic": 20,
+        "application": 17,
+        "economics": 13,
+        "riskShare": 12,
+        "readiness": 10,
+        "timing": 10
+      },
+      "thesis": "Use the university consortium model to seed research demand and institutional adoption of commercial LEO.",
+      "signal": "ASU leads the Orbital Reef university advisory group.",
+      "source": "https://www.blueorigin.com/destinations"
+    }
+  ]
+}
