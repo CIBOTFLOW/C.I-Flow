@@ -15,19 +15,6 @@
  }
  acct.forEach(b=>b.addEventListener('click',()=>{acct.filter(x=>x.dataset.acctGroup===b.dataset.acctGroup).forEach(x=>x.classList.remove('active'));b.classList.add('active');scoreAcct();}));scoreAcct();
 
- // Lead IQ
- const lead=qa('[data-lead-group]'),leadOut=q('[data-lead-output]');
- function scoreLead(){
-  if(!leadOut)return;
-  const vals={};lead.filter(x=>x.classList.contains('active')).forEach(x=>vals[x.dataset.leadGroup]=Number(x.dataset.score||0));
-  const total=Object.values(vals).reduce((a,b)=>a+b,0);
-  let label='Nurture contact',note='Find a stronger board stakeholder or wait for clearer engagement.';
-  if(total>=75){label='Priority contact',note='Direct phone + personal email + coffee or working session. Move toward operational audit.';}
-  else if(total>=50){label='Relevant contact',note='Multi-touch sequence. Look for a warmer path to President or Treasurer.';}
-  leadOut.querySelector('strong').textContent=total+' / 100';leadOut.querySelector('h3').textContent=label;leadOut.querySelector('p').textContent=note;
- }
- lead.forEach(b=>b.addEventListener('click',()=>{lead.filter(x=>x.dataset.leadGroup===b.dataset.leadGroup).forEach(x=>x.classList.remove('active'));b.classList.add('active');scoreLead();}));scoreLead();
-
  // ROI calculator
  const inputs=qa('[data-roi]'),roiOut=q('[data-roi-output]');
  function calcROI(){
@@ -58,7 +45,7 @@
        return ok&&(!term||JSON.stringify(a).toLowerCase().includes(term));
      });
      targetTable.querySelectorAll('.target-row:not(.head),.empty-row').forEach(x=>x.remove());
-     targetTable.insertAdjacentHTML('beforeend',rows.map(a=>'<div class="target-row"><div><b>'+esc(a.name)+'</b></div><div>'+esc(a.city)+'</div><div>'+(a.units??'Research')+'</div><div>'+esc(a.type)+'</div><div>'+esc(a.incumbent)+'</div><div><span class="priority '+a.priority.toLowerCase()+'">'+esc(a.priority)+'</span></div><div>'+esc(a.next)+'</div><div><a class="source-link" target="_blank" rel="noopener" href="'+esc(a.source)+'">Public source</a></div></div>').join('')||'<div class="empty-row">No public targets match this filter.</div>');
+     targetTable.insertAdjacentHTML('beforeend',rows.map(a=>'<div class="target-row"><div><b>'+esc(a.name)+'</b></div><div>'+esc(a.city)+'</div><div>'+(a.units??'Research')+'</div><div>'+esc(a.type)+'</div><div>'+esc(a.incumbent)+'</div><div>'+esc(a.contact||'Research')+'</div><div>'+esc(a.meeting||'Research')+'</div><div><span class="priority '+a.priority.toLowerCase()+'">'+esc(a.priority)+'</span></div><div>'+esc(a.next)+'</div><div><a class="source-link" target="_blank" rel="noopener" href="'+esc(a.source)+'">Public source</a></div></div>').join('')||'<div class="empty-row">No public targets match this filter.</div>');
    }
    fetch('/assembly/pipeline-data.json').then(r=>r.json()).then(d=>{
      targets=d.targets||[];renderTargets();
