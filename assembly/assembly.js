@@ -9,8 +9,8 @@
   const vals={};acct.filter(x=>x.classList.contains('active')).forEach(x=>vals[x.dataset.acctGroup]=Number(x.dataset.score||0));
   const total=Object.values(vals).reduce((a,b)=>a+b,0);
   let label='Low priority',note='Do not force field time. Keep in nurture until economics or intent improves.';
-  if(total>=80){label='Gold account';note='High-touch field motion. Build President / Treasurer alignment and move toward an audit + board presentation.';}
-  else if(total>=60){label='Silver account';note='Good fit. Use scaled outreach and promote to high-touch once a trigger or response appears.';}
+  if(total>=80){label='Priority account';note='Invest personal field time. Build President / Treasurer alignment and move toward an audit + board presentation.';}
+  else if(total>=60){label='Monitor account';note='Good potential, but wait for stronger timing, pain or board access before heavy field investment.';}
   acctOut.querySelector('strong').textContent=total+' / 100';acctOut.querySelector('h3').textContent=label;acctOut.querySelector('p').textContent=note;
  }
  acct.forEach(b=>b.addEventListener('click',()=>{acct.filter(x=>x.dataset.acctGroup===b.dataset.acctGroup).forEach(x=>x.classList.remove('active'));b.classList.add('active');scoreAcct();}));scoreAcct();
