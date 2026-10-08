@@ -68,6 +68,17 @@
           "value": "blueorigin.ciflow.io"
         }
       ]
+    },
+    {
+      "source": "/",
+      "destination": "/assembly/index.html",
+      "permanent": false,
+      "has": [
+        {
+          "type": "host",
+          "value": "assembly.ciflow.io"
+        }
+      ]
     }
   ]
 }
