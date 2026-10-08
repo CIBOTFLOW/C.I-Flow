@@ -39,9 +39,16 @@
         "integration ownership"
       ],
       "first_meeting": "Map a concrete enterprise resilience / edge-compute workload that TeraWave or Blue Ring can serve better than terrestrial-only infrastructure.",
-      "known_people": [],
-      "personnel_confidence": "Titles only - personnel not verified",
-      "priority_band": "Tier 1"
+      "known_people": [
+        {
+          "name": "Rajeev Badyal",
+          "title": "Vice President, Amazon Leo",
+          "role": "Decision-maker / champion candidate"
+        }
+      ],
+      "personnel_confidence": "Verified public leadership",
+      "priority_band": "Tier 1",
+      "people_source": "https://www.aboutamazon.com/news/amazon-leo/project-kuiper-becomes-amazon-leo"
     },
     {
       "name": "NASA",
@@ -71,9 +78,21 @@
         "technical integration burden"
       ],
       "first_meeting": "Validate strategic fit, internal sponsor, economic contribution, technical dependency and the right transaction structure.",
-      "known_people": [],
-      "personnel_confidence": "Titles only - personnel not verified",
-      "priority_band": "Tier 1"
+      "known_people": [
+        {
+          "name": "Jared Isaacman",
+          "title": "Administrator",
+          "role": "Economic buyer candidate"
+        },
+        {
+          "name": "Amit Kshatriya",
+          "title": "Associate Administrator",
+          "role": "Decision-maker candidate"
+        }
+      ],
+      "personnel_confidence": "Verified public leadership",
+      "priority_band": "Tier 1",
+      "people_source": "https://www.nasa.gov/nasa-leadership/"
     },
     {
       "name": "Air Liquide",
@@ -801,9 +820,16 @@
         "procurement timing"
       ],
       "first_meeting": "Align mission need, procurement path, payload interface and the fastest demonstrable Blue Ring / New Glenn configuration.",
-      "known_people": [],
-      "personnel_confidence": "Titles only - personnel not verified",
-      "priority_band": "Tier 2"
+      "known_people": [
+        {
+          "name": "Gen. Douglas A. Schiess",
+          "title": "Chief of Space Operations",
+          "role": "Economic buyer / senior sponsor candidate"
+        }
+      ],
+      "personnel_confidence": "Verified public leadership",
+      "priority_band": "Tier 2",
+      "people_source": "https://www.spaceforce.mil/News/Article-Display/Article/4590732/schiess-sworn-in-as-the-space-forces-highest-ranking-uniformed-leader/"
     },
     {
       "name": "Amgen",
@@ -931,9 +957,26 @@
         "technical integration burden"
       ],
       "first_meeting": "Validate strategic fit, internal sponsor, economic contribution, technical dependency and the right transaction structure.",
-      "known_people": [],
-      "personnel_confidence": "Titles only - personnel not verified",
-      "priority_band": "Tier 2"
+      "known_people": [
+        {
+          "name": "Josef Aschbacher",
+          "title": "Director General",
+          "role": "Economic buyer candidate"
+        },
+        {
+          "name": "Daniel Neuenschwander",
+          "title": "Director of Human and Robotic Exploration",
+          "role": "Decision-maker candidate"
+        },
+        {
+          "name": "Géraldine Naja",
+          "title": "Director of Space Transportation and acting Director of Commercialisation and Industry Partnership",
+          "role": "Champion candidate"
+        }
+      ],
+      "personnel_confidence": "Verified public leadership",
+      "priority_band": "Tier 2",
+      "people_source": "https://www.esa.int/About_Us/Corporate_news/ESA_top_management"
     },
     {
       "name": "Honeywell Aerospace",
