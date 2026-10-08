@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-10-08",
+  "note": "Public-data research only. Initial priority is a research queue, not an assertion of management pain or sales readiness.",
+  "targets": [
+    {
+      "name": "58 N. El Camino Condominium Association",
+      "city": "San Mateo",
+      "units": 58,
+      "type": "Condominium",
+      "incumbent": "PML Management Corporation",
+      "meeting": "Usually 2nd Tuesday monthly",
+      "priority": "A",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Research board officers, incumbent contract timing, reviews, reserves and any active capital work."
+    },
+    {
+      "name": "Bay Laurels Condominium Association",
+      "city": "San Mateo",
+      "units": 45,
+      "type": "Condominium",
+      "incumbent": "Powerstone Property Management",
+      "meeting": "Public HOA listing",
+      "priority": "A",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Map board officers and assess management satisfaction / upcoming reserve needs."
+    },
+    {
+      "name": "Bay Meadows Community Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Master HOA",
+      "incumbent": "Seabreeze Management Company",
+      "meeting": "Quarterly",
+      "priority": "B",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Treat as strategic / complex. Determine sub-association structure, staffing and RFP timing before active pursuit."
+    },
+    {
+      "name": "Clearview Homeowners - San Mateo Woods",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Unknown",
+      "meeting": "Public HOA listing",
+      "priority": "B",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Determine unit count, management company and board meeting cadence."
+    },
+    {
+      "name": "Fiesta Gardens Homeowners Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Unknown",
+      "meeting": "First Tuesday monthly",
+      "priority": "B",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Research unit count and current manager; recurring monthly meeting creates a clear board-entry path."
+    },
+    {
+      "name": "Harbortown Homeowners Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Common Interest Management Services",
+      "meeting": "Public HOA listing",
+      "priority": "A",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Research unit count and current board; likely strong fit if centralized footprint and management-change trigger exists."
+    },
+    {
+      "name": "Las Casitas of San Mateo Homeowners' Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Common Interest Management Services",
+      "meeting": "2nd Thursday monthly",
+      "priority": "A",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Map officers and determine contract timing / management satisfaction."
+    },
+    {
+      "name": "Landsdowne HOA",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Unknown",
+      "meeting": "First Wednesday monthly",
+      "priority": "B",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Research size, board officers and management arrangement."
+    },
+    {
+      "name": "Laurelwood Homeowners Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Unknown",
+      "meeting": "TBD",
+      "priority": "C",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "First establish whether professionally managed and approximate unit count."
+    },
+    {
+      "name": "Marina Gardens Homeowners Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "The Manor Association",
+      "meeting": "4th Wednesday monthly",
+      "priority": "A",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Research unit count, board officers and recurring maintenance / vendor issues."
+    },
+    {
+      "name": "Mariner's Green #2 HOA",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Unknown",
+      "meeting": "4th Monday monthly",
+      "priority": "B",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Determine current manager, size and whether a board contact is publicly available."
+    },
+    {
+      "name": "Parrott Park Homeowners Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Unknown",
+      "meeting": "Mid-month",
+      "priority": "B",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Research management model and board leadership."
+    },
+    {
+      "name": "Ryland Cedar Bay",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Bay Meadows HOA",
+      "incumbent": "Common Interest Management Services",
+      "meeting": "Quarterly",
+      "priority": "B",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Assess unit count and whether community-level decision rights sit here or with the master association."
+    },
+    {
+      "name": "San Mateo Highlands Community Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Community Association",
+      "incumbent": "Unknown",
+      "meeting": "Public HOA listing",
+      "priority": "B",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Confirm common-interest management scope versus neighborhood-only association."
+    },
+    {
+      "name": "San Mateo Park Homeowners Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Unknown",
+      "meeting": "Monthly board meetings",
+      "priority": "B",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Confirm whether professional community management is in scope and map current board."
+    },
+    {
+      "name": "Sugarloaf Homeowners Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "PML Management Corporation",
+      "meeting": "Monthly board meetings",
+      "priority": "A",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Research size, public reviews and upcoming reserve / capital needs."
+    },
+    {
+      "name": "Ticonderoga Townhomes Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Townhomes",
+      "incumbent": "Unknown",
+      "meeting": "2nd Thursday monthly",
+      "priority": "A",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Townhome format fits Assembly's public customer mix. Research unit count and incumbent."
+    },
+    {
+      "name": "Woodlake Condominium Association",
+      "city": "San Mateo",
+      "units": null,
+      "type": "Condominium",
+      "incumbent": "Unknown",
+      "meeting": "3rd Wednesday monthly",
+      "priority": "A",
+      "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
+      "next": "Large named condo community with regular board cadence. Research unit count, incumbent and contract timing."
+    },
+    {
+      "name": "Sunset Oaks Homeowners Association",
+      "city": "Sunnyvale",
+      "units": 245,
+      "type": "Townhomes",
+      "incumbent": "UNC Community Management",
+      "meeting": "Public HOA site",
+      "priority": "A",
+      "source": "https://sunsetoaks.org/",
+      "next": "High-fit size on public facts. Research board officers, incumbent satisfaction, reserve projects and contract renewal."
+    },
+    {
+      "name": "Woodgate",
+      "city": "Sunnyvale",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Unknown",
+      "meeting": "Public HOA site",
+      "priority": "B",
+      "source": "https://www.woodgatesunnyvale.com/",
+      "next": "Confirm unit count, current management and board contact path."
+    },
+    {
+      "name": "Schaefer Ranch HOA",
+      "city": "Dublin",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Common Interest Management Services",
+      "meeting": "Public city / GHAD record",
+      "priority": "B",
+      "source": "https://www.dublin.ca.gov/DocumentCenter/View/25270/Schaefer-Ranch-GHAD-Communications-Plan",
+      "next": "Research current contacts and whether the public management information remains current before outreach."
+    }
+  ],
+  "referral_partners": [
+    {
+      "name": "Association Reserves - Northern California",
+      "category": "Reserve studies",
+      "area": "SF Bay Area / Northern California",
+      "contact": "Derek Eckert, President; territory managers for SF, East Bay and Silicon Valley",
+      "source": "https://www.reservestudy.com/location-individual/serving-the-bay-area-northern-california-central-valley-and-sacramento/",
+      "why": "Sees reserve-funding pressure, deferred maintenance and boards approaching capital decisions."
+    },
+    {
+      "name": "SMA Reserves",
+      "category": "Reserve studies",
+      "area": "Northern California",
+      "contact": "Northern CA office, San Jose",
+      "source": "https://smareserves.com/",
+      "why": "Board-facing reserve planning creates early visibility into financial and maintenance pressure."
+    },
+    {
+      "name": "Applied Reserve Analysis",
+      "category": "Reserve studies",
+      "area": "San Francisco, Oakland, San Jose, San Mateo, Redwood City, Fremont, Palo Alto",
+      "contact": "Northern California team",
+      "source": "https://www.appliedreserveanalysis.com/northern-california-reserve-study/",
+      "why": "Broad Bay Area footprint and direct relationships with associations planning reserves."
+    },
+    {
+      "name": "Hughes Gill Cochrane Tinetti",
+      "category": "HOA law",
+      "area": "Northern California / Walnut Creek",
+      "contact": "Community-association attorneys",
+      "source": "https://hughes-gill.com/about/",
+      "why": "Exclusive community-association practice and strong visibility into governance, contracts and board disputes."
+    },
+    {
+      "name": "Tinnelly Law Group",
+      "category": "HOA law",
+      "area": "San Francisco Bay Area office, San Mateo",
+      "contact": "Bay Area community-association legal team",
+      "source": "https://www.hoamanagement.com/lawyers/tinnelly-law-group/",
+      "why": "Represents large numbers of California HOAs and can surface governance / management transition needs."
+    },
+    {
+      "name": "Youngling Law Firm",
+      "category": "HOA law / governing documents",
+      "area": "Extended Bay Area",
+      "contact": "Governing-document specialists",
+      "source": "https://younglinglaw.com/",
+      "why": "Deep association relationships and a natural education / referral path around governance modernization."
+    },
+    {
+      "name": "ECHO",
+      "category": "Board education / industry network",
+      "area": "Bay Area / California",
+      "contact": "Educational Community for Homeowners",
+      "source": "https://echo-ca.org/",
+      "why": "Direct access to board education, industry events and high-intent volunteer leaders."
+    }
+  ]
+}
