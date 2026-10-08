@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-08",
-  "note": "Public-data research only. Initial priority is a research queue, not an assertion of management pain or sales readiness.",
+  "note": "Public-data research only. Priority is a research queue, not an assertion of dissatisfaction, contract availability or sales readiness.",
   "targets": [
     {
       "name": "58 N. El Camino Condominium Association",
@@ -11,7 +11,8 @@
       "meeting": "Usually 2nd Tuesday monthly",
       "priority": "A",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Research board officers, incumbent contract timing, reviews, reserves and any active capital work."
+      "next": "Research board officers, incumbent contract timing, reviews, reserves and any active capital work.",
+      "contact": "PML management contact publicly listed"
     },
     {
       "name": "Bay Laurels Condominium Association",
@@ -22,7 +23,8 @@
       "meeting": "Public HOA listing",
       "priority": "A",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Map board officers and assess management satisfaction / upcoming reserve needs."
+      "next": "Map board officers and assess management satisfaction / upcoming reserve needs.",
+      "contact": "Gavin Kuehn, CCAM, Director of Community Management"
     },
     {
       "name": "Bay Meadows Community Association",
@@ -33,7 +35,8 @@
       "meeting": "Quarterly",
       "priority": "B",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Treat as strategic / complex. Determine sub-association structure, staffing and RFP timing before active pursuit."
+      "next": "Treat as strategic / complex. Determine sub-association structure, staffing and RFP timing before active pursuit.",
+      "contact": "Seabreeze community-management contacts publicly listed"
     },
     {
       "name": "Clearview Homeowners - San Mateo Woods",
@@ -44,7 +47,8 @@
       "meeting": "Public HOA listing",
       "priority": "B",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Determine unit count, management company and board meeting cadence."
+      "next": "Determine unit count, management company and board meeting cadence.",
+      "contact": "Research"
     },
     {
       "name": "Fiesta Gardens Homeowners Association",
@@ -55,7 +59,8 @@
       "meeting": "First Tuesday monthly",
       "priority": "B",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Research unit count and current manager; recurring monthly meeting creates a clear board-entry path."
+      "next": "Research unit count and current manager; recurring monthly meeting creates a clear board-entry path.",
+      "contact": "Research"
     },
     {
       "name": "Harbortown Homeowners Association",
@@ -66,7 +71,8 @@
       "meeting": "Public HOA listing",
       "priority": "A",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Research unit count and current board; likely strong fit if centralized footprint and management-change trigger exists."
+      "next": "Research unit count and current board; likely strong fit if centralized footprint and management-change trigger exists.",
+      "contact": "Common Interest Management Services public office"
     },
     {
       "name": "Las Casitas of San Mateo Homeowners' Association",
@@ -77,7 +83,8 @@
       "meeting": "2nd Thursday monthly",
       "priority": "A",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Map officers and determine contract timing / management satisfaction."
+      "next": "Map officers and determine contract timing / management satisfaction.",
+      "contact": "Common Interest Management Services public office"
     },
     {
       "name": "Landsdowne HOA",
@@ -88,7 +95,8 @@
       "meeting": "First Wednesday monthly",
       "priority": "B",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Research size, board officers and management arrangement."
+      "next": "Research size, board officers and management arrangement.",
+      "contact": "Research"
     },
     {
       "name": "Laurelwood Homeowners Association",
@@ -99,7 +107,8 @@
       "meeting": "TBD",
       "priority": "C",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "First establish whether professionally managed and approximate unit count."
+      "next": "First establish whether professionally managed and approximate unit count.",
+      "contact": "Research"
     },
     {
       "name": "Marina Gardens Homeowners Association",
@@ -110,7 +119,8 @@
       "meeting": "4th Wednesday monthly",
       "priority": "A",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Research unit count, board officers and recurring maintenance / vendor issues."
+      "next": "Research unit count, board officers and recurring maintenance / vendor issues.",
+      "contact": "The Manor Association public office"
     },
     {
       "name": "Mariner's Green #2 HOA",
@@ -121,7 +131,8 @@
       "meeting": "4th Monday monthly",
       "priority": "B",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Determine current manager, size and whether a board contact is publicly available."
+      "next": "Determine current manager, size and whether a board contact is publicly available.",
+      "contact": "Research"
     },
     {
       "name": "Parrott Park Homeowners Association",
@@ -132,7 +143,8 @@
       "meeting": "Mid-month",
       "priority": "B",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Research management model and board leadership."
+      "next": "Research management model and board leadership.",
+      "contact": "Research"
     },
     {
       "name": "Ryland Cedar Bay",
@@ -143,7 +155,8 @@
       "meeting": "Quarterly",
       "priority": "B",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Assess unit count and whether community-level decision rights sit here or with the master association."
+      "next": "Assess unit count and whether community-level decision rights sit here or with the master association.",
+      "contact": "Public association contact listed"
     },
     {
       "name": "San Mateo Highlands Community Association",
@@ -154,7 +167,8 @@
       "meeting": "Public HOA listing",
       "priority": "B",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Confirm common-interest management scope versus neighborhood-only association."
+      "next": "Confirm common-interest management scope versus neighborhood-only association.",
+      "contact": "Research"
     },
     {
       "name": "San Mateo Park Homeowners Association",
@@ -165,7 +179,8 @@
       "meeting": "Monthly board meetings",
       "priority": "B",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Confirm whether professional community management is in scope and map current board."
+      "next": "Confirm whether professional community management is in scope and map current board.",
+      "contact": "Board contact publicly listed"
     },
     {
       "name": "Sugarloaf Homeowners Association",
@@ -176,7 +191,8 @@
       "meeting": "Monthly board meetings",
       "priority": "A",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Research size, public reviews and upcoming reserve / capital needs."
+      "next": "Research size, public reviews and upcoming reserve / capital needs.",
+      "contact": "President contact publicly listed"
     },
     {
       "name": "Ticonderoga Townhomes Association",
@@ -187,7 +203,8 @@
       "meeting": "2nd Thursday monthly",
       "priority": "A",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Townhome format fits Assembly's public customer mix. Research unit count and incumbent."
+      "next": "Townhome format fits Assembly's public customer mix. Research unit count and incumbent.",
+      "contact": "Research"
     },
     {
       "name": "Woodlake Condominium Association",
@@ -198,7 +215,8 @@
       "meeting": "3rd Wednesday monthly",
       "priority": "A",
       "source": "https://www.cityofsanmateo.org/300/View-HOA-Listings",
-      "next": "Large named condo community with regular board cadence. Research unit count, incumbent and contract timing."
+      "next": "Large named condo community with regular board cadence. Research unit count, incumbent and contract timing.",
+      "contact": "Association contact publicly listed"
     },
     {
       "name": "Sunset Oaks Homeowners Association",
@@ -209,7 +227,8 @@
       "meeting": "Public HOA site",
       "priority": "A",
       "source": "https://sunsetoaks.org/",
-      "next": "High-fit size on public facts. Research board officers, incumbent satisfaction, reserve projects and contract renewal."
+      "next": "High-fit size on public facts. Research board officers, incumbent satisfaction, reserve projects and contract renewal.",
+      "contact": "Stephanie Miras, UNC Management"
     },
     {
       "name": "Woodgate",
@@ -220,7 +239,8 @@
       "meeting": "Public HOA site",
       "priority": "B",
       "source": "https://www.woodgatesunnyvale.com/",
-      "next": "Confirm unit count, current management and board contact path."
+      "next": "Confirm unit count, current management and board contact path.",
+      "contact": "Research"
     },
     {
       "name": "Schaefer Ranch HOA",
@@ -231,7 +251,56 @@
       "meeting": "Public city / GHAD record",
       "priority": "B",
       "source": "https://www.dublin.ca.gov/DocumentCenter/View/25270/Schaefer-Ranch-GHAD-Communications-Plan",
-      "next": "Research current contacts and whether the public management information remains current before outreach."
+      "next": "Research current contacts and whether the public management information remains current before outreach.",
+      "contact": "Common Interest Management Services public office"
+    },
+    {
+      "name": "Treasure Isle HOA",
+      "city": "Foster City",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Mulqueeney & Associates",
+      "contact": "Public board roster + managing agent Dan James",
+      "meeting": "Public HOA site",
+      "priority": "A",
+      "source": "https://treasureisle.org/about-us/",
+      "next": "Validate board roster is current, confirm unit count, contract timing and whether incumbent-service pain exists."
+    },
+    {
+      "name": "Expressions of Sunnyvale",
+      "city": "Sunnyvale",
+      "units": null,
+      "type": "Homeowners Association",
+      "incumbent": "Action Property Management",
+      "contact": "Community Manager Susan Darner",
+      "meeting": "Regular board meetings publicly posted",
+      "priority": "A",
+      "source": "https://expressionshoa.org/governing/",
+      "next": "Research unit count, board officers, reserve / capital activity and management contract timing."
+    },
+    {
+      "name": "Cypress Walk HOA",
+      "city": "Pacifica",
+      "units": 94,
+      "type": "Single-family HOA",
+      "incumbent": "First Equity Property Management",
+      "contact": "First Equity public board-meeting route",
+      "meeting": "Public hybrid board meetings",
+      "priority": "A",
+      "source": "https://www.firstequityproperty.com/cypress-walk",
+      "next": "Review current budget / roof / fire-repair agenda items, then determine board leadership and contract timing."
+    },
+    {
+      "name": "Colina Association",
+      "city": "South San Francisco",
+      "units": 145,
+      "type": "Condominium",
+      "incumbent": "Verify current manager - public sources conflict",
+      "contact": "Public HOA / management contact route available",
+      "meeting": "Public records / meeting route",
+      "priority": "A",
+      "source": "https://www.realtor.com/realestateandhomes-detail/1-Appian-Way-Unit-706-3_South-San-Francisco_CA_94080_M23749-60033",
+      "next": "Resolve conflicting manager data first, then map current board, reserves and transition timing before outreach."
     }
   ],
   "referral_partners": [
