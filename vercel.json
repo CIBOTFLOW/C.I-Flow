@@ -90,6 +90,17 @@
           "value": "xthings.ciflow.io"
         }
       ]
+    },
+    {
+      "source": "/",
+      "destination": "/bakertilly/index.html",
+      "permanent": false,
+      "has": [
+        {
+          "type": "host",
+          "value": "bakertilly.ciflow.io"
+        }
+      ]
     }
   ]
 }
