@@ -23,7 +23,7 @@
      const show=rows.filter(p=>{
        const blob=(p.name+' '+p.category+' '+p.region+' '+p.evidence+' '+p.motion).toLowerCase();
        let ok=true;
-       if(filter==='Tier 1')ok=p.priority==='Tier 1';
+       if(filter==='Tier 1')ok=p.priority==='Tier 1'||p.priority==='一级';
        else if(filter==='National')ok=/united states|north america|all 50|nationwide|national|全美|美国|北美/i.test(p.region+' '+p.evidence);
        else if(filter==='Integrator')ok=/integrator|security|集成商|安防/i.test(p.category);
        else if(filter==='Specifier')ok=/design|consult|building automation|building technology|设计|顾问|楼宇/i.test(p.category);
@@ -34,7 +34,7 @@
    }
    fetch(zh?'/xthings/partners-zh.json':'/xthings/partners.json').then(r=>r.json()).then(d=>{
      rows=d.partners||[];
-     const c=q('#partnerCount'),t=q('#partnerTier1');if(c)c.textContent=rows.length;if(t)t.textContent=rows.filter(x=>x.priority==='Tier 1').length;
+     const c=q('#partnerCount'),t=q('#partnerTier1');if(c)c.textContent=rows.length;if(t)t.textContent=rows.filter(x=>x.priority==='Tier 1'||x.priority==='一级').length;
      renderPartners();
    });
    search?.addEventListener('input',renderPartners);
