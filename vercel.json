@@ -79,6 +79,17 @@
           "value": "assembly.ciflow.io"
         }
       ]
+    },
+    {
+      "source": "/",
+      "destination": "/xthings/index.html",
+      "permanent": false,
+      "has": [
+        {
+          "type": "host",
+          "value": "xthings.ciflow.io"
+        }
+      ]
     }
   ]
 }
